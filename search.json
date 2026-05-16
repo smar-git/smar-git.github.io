@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "My First Talk"
+  },
+  {
+    "objectID": "talks/index.html#section",
+    "href": "talks/index.html#section",
+    "title": "Talks",
+    "section": "",
+    "text": "My First Talk"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sara Martino",
+    "section": "",
+    "text": "Sara Martino\nWelcome to my website.\nHere you can find: - talks - presentations - projects"
+  }
+]
