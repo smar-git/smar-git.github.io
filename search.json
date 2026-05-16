@@ -11,20 +11,272 @@
     "href": "talks/index.html",
     "title": "Talks",
     "section": "",
-    "text": "My First Talk"
+    "text": "Valencia - Workshop"
   },
   {
     "objectID": "talks/index.html#section",
     "href": "talks/index.html#section",
     "title": "Talks",
     "section": "",
-    "text": "My First Talk"
+    "text": "Valencia - Workshop"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Spatio-Temporal trends in Health and Mortality",
+    "text": "Spatio-Temporal trends in Health and Mortality\n\nMortality in Italy across 107 provinces in 2002-2019\nCognitive impairment across USA states from 2008-2022\n\nHow do these phenomena change across age, and how do patterns evolve over space and time?\n\n\nWhat is common?\n\nBoth mortality and mental health have strong structure across age, time and space. The interaction between these effects cannot be ignored."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Spatio-Temporal trends in Health and Mortality",
+    "text": "Spatio-Temporal trends in Health and Mortality\n\nMortality in Italy across 107 provinces in 1999-2019\nCognitive impairment across USA states from 2008-2022\n\n\nWhat is different?\n\n\n\n\nMortality\n\nRegistry data\nComplete and of good quality\nrandom variability given the small size of the territorial units.\n\n\nCognitive impairment\n\nSurvey data\nNecessary to account for complex survey design"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#the-leecarter-model",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#the-leecarter-model",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "The Lee–Carter Model",
+    "text": "The Lee–Carter Model\nThe Lee-Carter model (Lee and Carter, 1992) is a popular forecasting model in demography.\nThe basic Lee-Carter model in a Poisson setting is: \\[\\begin{aligned}\nY_{xt} \\mid \\lambda_{xt} &\\sim \\text{Poisson}(E_{xt} \\lambda_{xt})\\\\\n\\log(\\lambda_{xt}) &= \\alpha_x + \\beta_x \\kappa_t + \\varepsilon_{xt}\n\\end{aligned}\\]\nParameters:\n\n\\(\\alpha_x\\) is an average age profile\n\\(\\kappa_t\\) represents mortality changes over time\n\\(\\beta_x\\) determines the age specific change when \\(\\kappa_t\\) changes\n\\(\\varepsilon_{xt}\\) adjusts for overdispersion"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---alpha_x",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---alpha_x",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Parameter interpretation - \\(\\alpha_x\\)",
+    "text": "Parameter interpretation - \\(\\alpha_x\\)\nThe basic Lee-Carter model \\[\\log(\\lambda_{xt}) = \\color{red}{\\alpha_x} + \\beta_x \\kappa_t + \\varepsilon_{xt}\\]\n\n\n\nAverage log-mortality at each age\nCaptures:\n\nhigh mortality at very young ages\n\nlow mortality in young adults\n\nincreasing mortality at older ages\n\n\n👉 “what mortality looks like across ages in a typical year”"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---kappa_t",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---kappa_t",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Parameter interpretation - \\(\\kappa_t\\)",
+    "text": "Parameter interpretation - \\(\\kappa_t\\)\nThe basic Lee-Carter model \\[\\log(\\lambda_{xt}) = \\alpha_x + \\beta_x\\ \\color{red}{\\kappa_t} + \\varepsilon_{xt}\\]\n\n\n\nCaptures:\n\noverall improvements in mortality\n\nmedical progress\n\npublic health changes\n\n\n👉 “the overall level of mortality in a given year”"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---beta_t",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#parameter-interpretation---beta_t",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Parameter interpretation - \\(\\beta_t\\)",
+    "text": "Parameter interpretation - \\(\\beta_t\\)\nThe basic Lee-Carter model \\[\\log(\\lambda_{xt}) = \\alpha_x + \\color{red}{\\beta_x}\\ \\kappa_t + \\varepsilon_{xt}\\]\n\n\n\nMeasures how each age reacts to changes in \\(\\kappa_t\\)\nIf:\n\n\\(\\beta_x\\) large → mortality at age \\(x\\) changes a lot\n\n\\(\\beta_x\\) small → little change over time\n\n\n👉 “which ages benefit most from progress”"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#identifiability-constraints",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#identifiability-constraints",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Identifiability Constraints",
+    "text": "Identifiability Constraints\nModel is not unique:\n\\[\\alpha_x + \\beta_x \\kappa_t = \\alpha_x + (c \\beta_x)(\\kappa_t / c)\\]\nSo we impose constraints:\n\n\\(\\sum_t \\kappa_t = 0\\)\n\\(\\sum_x \\beta_x = 1\\)\n\n👉 Ensures unique interpretation of parameters"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#inference-for-lee-carter-model",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#inference-for-lee-carter-model",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Inference for Lee-Carter Model",
+    "text": "Inference for Lee-Carter Model\nThe Lee-Carter model has classically been estimated in a frequentist setting using a singular value decomposition (SVD).\nThe R-packages demography, ilc or StoMoMo can be used to implement the original Lee-Carter model and some of its extensions.\n\n\nHow about Bayesian Inference?\n\n\n\nCzado et al (2005) proposed to place the Lee-Carter model in a Bayesian framework. Wiśniowski et al. (2015) use MCMC.\n\n\n\nHow about INLA?"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Bayesian version of the Poisson Lee-Carter model",
+    "text": "Bayesian version of the Poisson Lee-Carter model\n\\[\\begin{align*}\nY_{xt} \\mid \\lambda_{xt} &\\sim \\text{Poisson}(E_{xt} \\lambda_{xt})\\\n\\log(\\lambda_{xt}) &= \\alpha_x + \\beta_x \\kappa_t + \\epsilon_{xt}\n\\end{align*}\\] with\n\n\\(\\alpha_x \\mid \\tau_\\alpha \\sim \\mathcal{N}(0, \\tau_\\alpha)\\), for \\(x=1, \\ldots, N\\).\n\\(\\beta_x \\mid \\tau_\\beta \\sim \\mathcal{N}(0, \\tau_\\beta)\\), for \\(x=1, \\ldots, N\\), with \\(\\sum_x \\beta_x = 1\\)\n\\(\\kappa_t = \\phi \\cdot t  + \\kappa^\\star_{t}\\ \\), \\(\\ t=1, \\ldots, T\\), where \\({\\kappa}^\\star\\) follows a RW1(\\(\\tau_\\kappa\\)) and \\(\\sum \\kappa_t = 0\\)\n\\(\\epsilon_t \\mid \\tau_\\epsilon \\sim \\mathcal{N}(0, \\tau_\\epsilon)\\)\nPriors on \\(\\tau_\\alpha\\), \\(\\tau_\\beta\\), \\(\\tau_\\kappa\\), \\(\\tau_\\epsilon\\)."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Bayesian version of the Poisson Lee-Carter model",
+    "text": "Bayesian version of the Poisson Lee-Carter model\n\\[\\begin{align*}\nY_{xt} \\mid \\lambda_{xt} &\\sim \\text{Poisson}(E_{xt} \\lambda_{xt})\\\n\\log(\\lambda_{xt}) &= \\alpha_x + \\beta_x \\kappa_t + \\epsilon_{xt}\n\\end{align*}\\] with\n\n\\(\\alpha_x \\mid \\tau_\\alpha \\sim \\mathcal{N}(0, \\tau_\\alpha)\\), for \\(x=1, \\ldots, N\\).\n\\(\\beta_x \\mid \\tau_\\beta \\sim \\mathcal{N}(0, \\tau_\\beta)\\), for \\(x=1, \\ldots, N\\), with \\(\\sum_x \\beta_x = 1\\)\n\\(\\kappa_t = \\phi \\cdot t  + \\kappa^\\star_{t}\\ \\), \\(\\ t=1, \\ldots, T\\ \\), where \\({\\kappa}^\\star\\) follows a RW1(\\(\\tau_\\kappa\\)) and \\(\\sum \\kappa_t = 0\\)\n\\(\\epsilon_t \\mid \\tau_\\epsilon \\sim \\mathcal{N}(0, \\tau_\\epsilon)\\)\nPriors on \\(\\tau_\\alpha\\), \\(\\tau_\\beta\\), \\(\\tau_\\kappa\\), \\(\\tau_\\epsilon\\).\n\nNote: This is important if you want to do prediction ahead in time!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model-2",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#bayesian-version-of-the-poisson-lee-carter-model-2",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Bayesian version of the Poisson Lee-Carter model",
+    "text": "Bayesian version of the Poisson Lee-Carter model\n\\[\\begin{align*}\nY_{xt} \\mid \\lambda_{xt} &\\sim \\text{Poisson}(E_{xt} \\lambda_{xt})\\\n\\log(\\lambda_{xt}) &= \\alpha_x + \\beta_x \\kappa_t + \\epsilon_{xt}\n\\end{align*}\\] with\n\n\\(\\alpha_x \\mid \\tau_\\alpha \\sim \\mathcal{N}(0, \\tau_\\alpha)\\), for \\(x=1, \\ldots, N\\).\n\\(\\beta_x \\mid \\tau_\\beta \\sim \\mathcal{N}(0, \\tau_\\beta)\\), for \\(x=1, \\ldots, N\\), with \\(\\sum_x \\beta_x = 1\\)\n\\(\\kappa_t = \\phi \\cdot t  + \\kappa^\\star_{t}\\ \\), \\(\\ t=1, \\ldots, T\\), where \\({\\kappa}^\\star\\) follows a RW1(\\(\\tau_\\kappa\\)) and \\(\\sum \\kappa_t = 0\\)\n\\(\\epsilon_t \\mid \\tau_\\epsilon \\sim \\mathcal{N}(0, \\tau_\\epsilon)\\)\nPriors on \\(\\tau_\\alpha\\), \\(\\tau_\\beta\\), \\(\\tau_\\kappa\\), \\(\\tau_\\epsilon\\).\n\n\nDoes this model fit the INLA framework?"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#is-the-lee-carter-model-suitable-to-inla",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#is-the-lee-carter-model-suitable-to-inla",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Is the Lee-Carter model suitable to INLA?",
+    "text": "Is the Lee-Carter model suitable to INLA?\n\nThe model is: \\[\n\\begin{align*}\n  Y_{xt} \\mid \\lambda_{xt} &\\sim \\text{Poisson}(E_{xt} \\lambda_{xt})\\\\\n        \\log(\\lambda_{xt}) & = \\eta_{xt} = \\alpha_x + \\beta_x \\kappa_t + \\epsilon_{xt}\n\\end{align*}\n\\]\nSo we have:\n\n\\(\\mathbf{\\theta} = (\\tau_{\\alpha},\\tau_{\\beta},\\tau_{\\kappa},\\tau_{\\epsilon})\\) Precision parameters with non Gaussian prior\n\\(\\mathbf{u} = ( \\mathbf{\\alpha},  \\mathbf{\\beta},  \\mathbf{\\kappa},  \\mathbf{\\epsilon})\\sim\\mathcal{N}(0, \\mathbf{Q}( \\mathbf{\\theta}))\\)\nLikelihood: We do have conditional independence given \\(\\eta(\\mathbf{u})\\)\n\\(\\eta_{i}( \\mathbf{u}) = \\alpha_{x_i} + \\beta_{x_i} \\kappa_{t_i} + \\epsilon_{(xt)_{i}}\\) This is NOT a linear relationship!\n\n\n\nThe model fits almost..but not quite!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#what-is-inlabru",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#what-is-inlabru",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "What is inlabru?",
+    "text": "What is inlabru?\ninlabru is a high-level interface to R-INLA. Mainly designed by Finn Lindgrenn\n\n\n\nDesigned especially for: spatial and spatio-temporal models, point process models\nSimplifies:\n\nmodel specification\nspatial integration\nmesh handling\nprediction workflows 😃\n\nWorks seamlessly with spatial objects (sf, meshes, geometries)\n\n\n\n\ninlabru and R-INLA run the exact same computations!\n\n\n..but inlabru is easier (specially for spatial models!)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#inlabru-and-r-inla",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#inlabru-and-r-inla",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "inlabru and R-INLA",
+    "text": "inlabru and R-INLA\nFitting a simple point process\n\n\nR_INLA implementation\n\n# Define the dual mesh\ndmesh &lt;- book.mesh.dual(mesh)\n\nw &lt;- sapply(1:length(dmesh), function(i) {\n  if (gIntersects(dmesh[i, ], domainSP))\n    return(gArea(gIntersection(dmesh[i, ], domainSP)))\n  else return(0)\n})\n\n# augment data and compute weights\ny.pp &lt;- rep(0:1, c(nv, n))\ne.pp &lt;- c(w, rep(0, n)) \n\n# define projection matrix and stack\nimat &lt;- Diagonal(nv, rep(1, nv))\nlmat &lt;- inla.spde.make.A(mesh, xy)\nA.pp &lt;- rbind(imat, lmat)\nstk.pp &lt;- inla.stack(\n  data = list(y = y.pp, e = e.pp), \n  A = list(1, A.pp),\n  effects = list(list(b0 = rep(1, nv + n)), \n                 list(i = 1:nv)),\n  tag = 'pp')\n\n# run the inla function\npp.res &lt;- inla(\n  y ~ 0 + b0 + f(i, model = spde), \n  family = 'poisson', \n  data = inla.stack.data(stk.pp), \n  control.predictor = list(A = inla.stack.A(stk.pp)), \n  E = inla.stack.data(stk.pp)$e)\n\n\ninlabru implementation\n\ncmp &lt;- geometry ~\n  mySmooth(geometry, model = matern) +\n  Intercept(1)\n\nfit &lt;- lgcp(\n  cmp,\n  data = nests,\n  samplers = boundary,\n  domain = list(geometry = mesh)\n)\n\n\n\nBut what has this to do with the Lee Carter model?"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#extending-inla-to-non-linear-predictors",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#extending-inla-to-non-linear-predictors",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Extending INLA to non-linear predictors",
+    "text": "Extending INLA to non-linear predictors\n\nIn addition to being a wrapper around R-INLA, inlabru extends the scope of INLA to models with non-linear predictors \\(\\tilde{\\eta}(\\mathbf{u})\\).\n\n\n\n\n\n💡 The idea 💡\n\nLinearize \\(\\tilde{\\eta}(\\mathbf{u})\\) using a first-order Taylor expansion around \\(\\mathbf{u}_0\\):\n\n\\[\n\\tilde{\\eta}(\\mathbf{u}) \\approx \\tilde{\\eta}(\\mathbf{u}_0) + f_{\\text{linear}}(\\mathbf{u}) = \\bar{\\eta}(\\mathbf{u})\n\\]\n\nRun INLA for the linearized problem\n\nIterate until convergence\n\n\\(\\tilde{\\eta}(\\mathbf{u}_0))\\) close enough to \\(\\bar{\\eta}(\\mathbf{u_0})\\)\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nNote\nFor details:\nhttps://arxiv.org/abs/2407.00791v1"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#extending-inla-to-non-linear-predictors-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#extending-inla-to-non-linear-predictors-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Extending INLA to non-linear predictors",
+    "text": "Extending INLA to non-linear predictors\n\nThe linearization is an approximation on top of the “usual” INLA approximation\nAccuracy will depend on the nature of the non-linearity around \\(\\mathbf{u}_0\\) and the choice of convergence criteria.\nGreater care than usual is needed for the choice of priors."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#motivation-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#motivation-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Motivation",
+    "text": "Motivation"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#motivation-2",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#motivation-2",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Motivation",
+    "text": "Motivation\n\n\n\nCognitive impairment is very costly for society!\nTrends for cognitive health in the US are mixed\n\nDeclining age-standardized dementia rates with greatest decreases in the U.S. South.\nGreater risk of cognitive impairment in the U.S. South\nPotential worsening of cognitive functioning among younger midlife adults.\n\nLittle is know about state-specific differences"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#research-questions",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#research-questions",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Research questions",
+    "text": "Research questions\n\nWhat are the state-level trends in cognitive dysfunction by age from 2008 to 2022?\nDid this differ by those with and without a 4-year college degree (Bachelor’s)?"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#data",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#data",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Data",
+    "text": "Data\n\nAmerican Community Survey (ACS) data from 2008 to 2022.\nSample size from 1.3 to 2.3 million persons\nResponse - Self-reported cognitive dysfunction\n\n“Because of a physical, mental, or emotional condition, do you have difficulty concentrating, remembering, or making decisions?”\n\nMeasures\n\nAge: 25-85 with 5-year age bands\nEducation: completed a bachelor’s (BA+) degree or not (no BA)\nState of residence"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#american-community-survey",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#american-community-survey",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "American Community Survey",
+    "text": "American Community Survey\n\nContinuous nationwide survey conducted by the U.S. Census Bureau\nStratified random sample of U.S. households\nCollects demographic, social, economic, and housing data\nData gathered monthly via mail, phone, and in-person interviews\nSamples about 3.5 million addresses each year\nSurvey weights are attached to each observation"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#accounting-for-complex-survey-design",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#accounting-for-complex-survey-design",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Accounting for complex survey design",
+    "text": "Accounting for complex survey design\nA three steps approach\n\nCompute the Fay-Harriot (FH) estimate of prevalence for each state, age-class, year and education level\n\n\\(\\hat{p}_{i} = \\frac{\\sum_i w_iy_i}{\\sum_i w_i}\\), include design weights (representative for the whole population)\nHas an estimated variance \\(\\text{Var}(\\hat{p}_i)\\)\nnot smoothed in space and time\n\nTransform prevalence and se to get Gaussian data \\[\ny_i = \\text{logit}(\\hat{p}_i)\\sim\\mathcal{N}(\\eta_i, \\text{Var}(\\hat{p}_i))\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#the-model",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#the-model",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "The model",
+    "text": "The model\nWe model “College” and “No College” separately.\n\\[\n\\eta_{xts} = \\mu + \\alpha_x + \\beta_x\\kappa_{t} +\\omega_s\n\\]\nwhere\n\n\\(\\alpha_x\\) is a age effect (IID)\n\\(\\beta_x\\) is a age effect (IID)\n\\(\\kappa_t\\) is a time effect, modeled as a RW1 with drift\n\\(\\omega_s\\) is a state specific intercept"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#results",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#results",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Results",
+    "text": "Results\n\n\nIntercept\n\n\nAge profile"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#results-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#results-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Results",
+    "text": "Results\n\n\nTime trend\n\n\nAge multiplier"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#results-2",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#results-2",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Results",
+    "text": "Results\nState specific intercept"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#the-way-forward",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#the-way-forward",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "The way forward",
+    "text": "The way forward\n\nInclude state specific trend\nSome of the estimated variances pf the FH estimator are zero…"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#italy-as-a-case-study-of-mortality-trends",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#italy-as-a-case-study-of-mortality-trends",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Italy as a case-study of mortality trends",
+    "text": "Italy as a case-study of mortality trends\n\n\n\nSome of the lowest mortality levels in Europe: life expectancy of 83.4 in 2023.\nMarked geographical differences, reflecting inequalities in wealth, educational level and employment opportunities.\nSlowdown of mortality improvements since 2010.\n\n\nDocumented gendered geography of mortality in the second half of the 20th century – surprisingly little attention to the geography of mortality in the 21st century!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#data-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#data-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Data",
+    "text": "Data\nISTAT series of deaths and population counts:\n\n\n\nby single year of age\nseparately by gender\nfor each of the 107 Provinces\nfor the period 1999-2019.\n\n\n\n\n\n\n\n\nGood quality registers data – subject to random variability given the small size of the territorial units."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#research-questions-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#research-questions-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Research questions",
+    "text": "Research questions\nThe study contributes to understandings of geographical inequalities in mortality in the 21st century by asking:\n\nHow has gender- and age-specific mortality evolved over the last two decades?\nHow did mortality by age and gender vary at the provincial level?\nAnd have geographical inequalities widened during the slowdown of survival improvement of the 2010s?\n\nModel 1\nModel 2"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#model-1",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#model-1",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Model 1",
+    "text": "Model 1\nWe model males and females separately.\nWe assume the counts to be Poisson distributed \\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\underbrace{\\alpha_x + \\beta_x\\kappa_t + \\epsilon_{xts}}_{1} + \\underbrace{\\omega_{sg_x}}_{2}\n\\]\n\nTraditional Lee-Carter model\nSpatial effect: allowed to vary for 10 different age classe\n\n\nBYM2 model for each age class (replicate feature)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#model-2",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#model-2",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Model 2",
+    "text": "Model 2\n\\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\alpha_x + \\beta_x\\kappa_t + \\omega_{s g_x p_t}+ \\epsilon_{xts}\n\\] with\n\\[\np_t = \\left\\{\n\\begin{aligned}\n1 & \\text{ for years 2002-2010}\\\\\n2 & \\text{ for years 2011-2019}\\\\\n\\end{aligned}\n\\right.\n\\] This helps to capture different spatial trends in the two time periods."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#how-has-gender--and-age-specific-mortality-evolved-over-the-last-two-decades",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#how-has-gender--and-age-specific-mortality-evolved-over-the-last-two-decades",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": " 1. How has gender- and age-specific mortality evolved over the last two decades? ",
+    "text": "1. How has gender- and age-specific mortality evolved over the last two decades? \n\n\n\n\n\n\nTime effect\n\n\n\n\n\n\n\nAge-specific multiplication factor\n\n\n\n\n\n\nThe graph on the left shows the estimated temporal trend. Mortality rates have been decreasing over time for both genders, but at a faster pace for men than for women. Against the overall declining pattern, we observe some evidence of a slowdown in the decline of mortality, particularly after 2012.\nThe graph on the right shows the estimated age-effect. The reduction of mortality rates has been more pronounced for younger age-classes than it is for individuals in their sixties and seventies."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#how-does-mortality-by-age-and-gender-vary-at-the-provincial-level",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#how-does-mortality-by-age-and-gender-vary-at-the-provincial-level",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": " 2. How does mortality by age and gender vary at the provincial level? ",
+    "text": "2. How does mortality by age and gender vary at the provincial level? \n\n\nThe maps above show the estimates of mean mortality rates by age class, gender. Provinces in blu indicate lower than average mortality rates, and provinces in red indicate higher than average moratlity rates.\nFor both gender we observe a marked North/South divide for child mortality.\nThere is also evidence of geographical variation in mortality rates between age 30 and 80. for both gender. For women the disadvantage is mainly concentrated in the southern provinces of Campania Calabria and Sicilia, while for men it extends to the centre south.\nAfter age 80, we observe comparatively (compared to younger ages) less variability across provinces for both gender – although we should highlight the existence of a Southern disadvantage for women but not for men."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#section",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#section",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "",
+    "text": "And have geographical inequalities widened during the slowdown of survival improvement of the 2010s? \n\n\n\n\n\n\n\n\n\nResults for males."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_workshop/index.html#take-home-message",
+    "href": "talks/2026/2026_Valencia_workshop/index.html#take-home-message",
+    "title": "Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality",
+    "section": "Take home message",
+    "text": "Take home message\n\nvarying geographical patterns depending on the combinations of age and gender considered\ngeographical variability higher among younger adult men and among older adult women, suggesting the influence of age- and sex-specific, context-dependent, risk factors.\n\nwidening of geographical inequalities between the first and second period"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sara Martino",
     "section": "",
-    "text": "Sara Martino\nWelcome to my website.\nHere you can find: - talks - presentations - projects"
+    "text": "Welcome to my website.\nHere you can find:\n\ntalks\npresentations\nprojects"
   }
 ]

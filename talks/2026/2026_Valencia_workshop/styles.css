@@ -1,0 +1,35 @@
+.reveal .title {
+  font-size: 1.8em;  /* adjust as needed */
+}
+
+.topbox {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 0.6em;
+  color: red;
+
+  border: 2px solid red;
+  padding: 0px 0px;
+  border-radius: 8px;
+
+  background-color: white;
+  width: 80%;
+  text-align: center;
+}
+
+
+
+.tight-slide {
+  padding: 0 !important;
+}
+
+.tight-slide .columns {
+  margin-top: -20px;
+}
+
+.tight-slide img {
+  max-height: 85vh;
+}
