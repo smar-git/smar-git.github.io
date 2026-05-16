@@ -1,0 +1,19 @@
+---
+title: "My First Talk"
+
+format:
+  revealjs:
+    theme: dark
+    slide-number: true
+---
+
+# Hello
+
+This is my first talk.
+
+---
+
+# Another slide
+
+- Point 1
+- Point 2
