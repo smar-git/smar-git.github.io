@@ -7,18 +7,830 @@
     "text": "About this site"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sara Martino",
+    "section": "",
+    "text": "Welcome to my website.\nHere you can find:\n\ntalks\npresentations\nprojects"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu",
+    "href": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Trondheim and NTNU",
+    "text": "Trondheim and NTNU"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Trondheim and NTNU",
+    "text": "Trondheim and NTNU"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu-2",
+    "href": "talks/2026/2026_Valencia_January/index.html#trondheim-and-ntnu-2",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Trondheim and NTNU",
+    "text": "Trondheim and NTNU"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#introduction-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#introduction-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Introduction",
+    "text": "Introduction\n\nGoal: Understand the spatial distribution of wild species\n\n\n\n\nHow do we collect data?\n\n\nImportant area for conservation. Islands, rivers….\nStenella and tursiope\nDifferent species, different habitat and behaviour"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data",
+    "href": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "How do we collect data?",
+    "text": "How do we collect data?\n\nTraditional data sources \\(\\longrightarrow\\) go out and search for dolphins!!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "How do we collect data?",
+    "text": "How do we collect data?\n\nTraditional data sources \\(\\longrightarrow\\) go out and search for dolphins!!\n\n\n\nThe observation process introduces a bias…\n\n\n\n… but we know the searching protocol…"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-2",
+    "href": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-2",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "How do we collect data?",
+    "text": "How do we collect data?\n\nTraditional data sources \\(\\longrightarrow\\) go out and search for dolphins!!\n\nThe observation process introduces a bias…\n… but we know the searching protocol…\n..therefore, we can correct for such bias!! 😀"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-3",
+    "href": "talks/2026/2026_Valencia_January/index.html#how-do-we-collect-data-3",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "How do we collect data?",
+    "text": "How do we collect data?\n\nTraditional data sources \\(\\longrightarrow\\) go out and search for dolphins!!\n\nThe observation process introduces a bias…\n… but we know the searching protocol…\n..therefore, we can correct for such bias!! 😀\n\n\nBUT These data are expensive and limited in space and time! 😔\n\n\nCan we also use data from other sources ❓"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#social-data",
+    "href": "talks/2026/2026_Valencia_January/index.html#social-data",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Social Data",
+    "text": "Social Data\n\nMany people are out in the sea with leisure boats\nPeople like to take pictures of dolphins if they spot one…such pictures are often put on social media…\n\n\n Source: AI-generated image via ChatGPT (DALL·E), OpenAI (2026)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#social-data-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#social-data-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Social Data",
+    "text": "Social Data\n\nMany people are out in the sea with leisure boats\nPeople like to take pictures of dolphins if they spot one…such pictures are often put on social media…\nThis can be a valuable source of data"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#social-data-2",
+    "href": "talks/2026/2026_Valencia_January/index.html#social-data-2",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Social Data",
+    "text": "Social Data\n\nMany people are out in the sea with leisure boats\nPeople like to take pictures of dolphins if they spot one…such pictures are often put on social media…\nThis can be a valuable source of data\n\n\n\nBUT these data have biases…and there is no searching protocoll!!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#the-data",
+    "href": "talks/2026/2026_Valencia_January/index.html#the-data",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "The Data",
+    "text": "The Data\n\n\nAll our data are presence-only\nWe want to merge all data sources….\n…accounting for each specific bias!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#the-data-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#the-data-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "The Data",
+    "text": "The Data\n\n\n\n\n\n\n\n\n\n\nData Type\nYears\nN. Campaigns\nSightings (Stenella)\nSightings (Tursiope)\n\n\n\n\nFERRY\n2007–2018\n311\n133\n16\n\n\nUNIRM\n2017–2019\n73\n14\n98\n\n\nSocial media\n2008–2019\n❓\n136\n465\n\n\n\nNotes:\n\nWe have many “Social media” data\nWe have both a “Spatial” and a “Temporal” bias!!"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#the-data-2",
+    "href": "talks/2026/2026_Valencia_January/index.html#the-data-2",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "The Data",
+    "text": "The Data\n\nSightings for bottlenose and striped dophins"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#statistical-tools-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#statistical-tools-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Statistical tools",
+    "text": "Statistical tools\n\nLog Gaussian Cox Processes (presence only data)\n\nSPDE representation of Gaussian fields\nInference using INLA\n\n\n\n\nThinned point process (observation bias)\n\nDetection function\nNeeds more than just INLA \\(\\longrightarrow\\) inlabru\n\n\n\n\n\nJoint modeling (merging of all data sources)\n\nEasy with INLA+inlabru"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#log-gaussian-cox-processes",
+    "href": "talks/2026/2026_Valencia_January/index.html#log-gaussian-cox-processes",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Log Gaussian Cox Processes",
+    "text": "Log Gaussian Cox Processes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe observe \\(N\\) points in the domain \\(\\Omega\\).\nGiven the intensity \\(\\lambda(s)\\) the likelihood is given by \\[\n\\pi(Y|\\lambda) =\\exp \\left\\{ |\\Omega| - \\int_{\\Omega} \\lambda(s) ds\\right\\}\\prod_{i = 1}^N\\lambda(s_i)\n\\]\nThe log-intensity is a Gaussian process \\[\n\\log(\\lambda(s)) = Z(s); \\ Z(s)\\sim \\text{GP}\n\\]\n‼️ Not analytically tractable ‼️\n\n\n\nDouble stochastic process Integral over the whole domain"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#implementation---grid-discretization",
+    "href": "talks/2026/2026_Valencia_January/index.html#implementation---grid-discretization",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Implementation - Grid discretization",
+    "text": "Implementation - Grid discretization\n\n\n\n\n\n\n\n\n\nDiscretize the domain into a grid\n\\(N_{ij}\\) = # of observation in cell \\((i,j)\\)\n\\(N_{ij} \\sim \\text{Pois}(\\Lambda_{ij})\\) where \\[\\Lambda_{ij} = \\int_{s_{ij}}\\lambda(s)ds \\approx |s_{ij}|\\exp(z_{ij})\\]\nPossible models for \\(Z(s)\\):\n\nContinuous GF \\(\\longrightarrow\\) dense covariance matrix\nGMRF \\(\\longrightarrow\\) sparse covariance matrix\n\nNOTE The grid serves both to approximate the latent Gaussian field and to approximate the likelihood"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#implementation---spde-approach",
+    "href": "talks/2026/2026_Valencia_January/index.html#implementation---spde-approach",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Implementation - SPDE Approach1",
+    "text": "Implementation - SPDE Approach1\n\n\n\n\n\n\n\n\n\n\n\n\nUse the SPDE approach over a mesh to represent the GF\n\n\\[\nZ(s) = \\sum_{i = 1}^nz_i\\phi_i(s)\n\\]\n\nApproximate the GF\nDo not need to approximate the observation location\nEfficient computationally\nFits into the INLA framework!\n\n\nin Going off grid: Computationally efficient inference for log-Gaussian Cox Processes, Simpson et al 2011"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#thinned-point-process",
+    "href": "talks/2026/2026_Valencia_January/index.html#thinned-point-process",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Thinned point process",
+    "text": "Thinned point process"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#thinned-point-process-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#thinned-point-process-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Thinned point process",
+    "text": "Thinned point process\n\nThe true intensity: \\(\\lambda(s)\\) (..this is what we are interested in!)\nThe thinned intensity \\[\n\\lambda^{\\star}(s) = \\lambda(s)g(s)\n\\]\n\n\\(g(s)\\) is the thinning (detection) function\nUnless \\(g(s)\\) is log-linear in all parameters the INLA framework will not work!\ninlabru is an extention of INLA that allowes for non linear terms"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models",
+    "href": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "INLA-friendly models",
+    "text": "INLA-friendly models\nLatent Gaussian Models\n\nLikelihood\n\n\\[\n\\pi(\\mathbf{y}|\\mathbf{u},\\theta) = \\prod_{i = 1}^n\\pi(y_i|u_i,\\theta)\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "INLA-friendly models",
+    "text": "INLA-friendly models\nLatent Gaussian Models\n\nLikelihood\n\n\\[\n\\pi(\\mathbf{y}|\\mathbf{u},\\theta) = \\prod_{i = 1}^n\\pi(y_i|u_i,\\theta)\n\\] 2. Latent field\n\nGaussianity\n\n\\[\n\\mathbf{u}|\\theta\\sim\\mathcal{N}(0,\\mathbf{Q}^{-1}(\\theta))\n\\]\n\nLinearity of the predictor\n\n\\[\n\\eta = \\mathbf{A}^T\\mathbf{u}\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models-2",
+    "href": "talks/2026/2026_Valencia_January/index.html#inla-friendly-models-2",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "INLA-friendly models",
+    "text": "INLA-friendly models\nLatent Gaussian Models\n\nLikelihood\n\n\\[\n\\pi(\\mathbf{y}|\\mathbf{u},\\theta) = \\prod_{i = 1}^n\\pi(y_i|u_i,\\theta)\n\\] 2. Latent field\n\nGaussianity\n\n\\[\n\\mathbf{u}|\\theta\\sim\\mathcal{N}(0,\\mathbf{Q}^{-1}(\\theta))\n\\]\n\nLinearity of the predictor\n\n\\[\n\\eta = \\mathbf{A}^T\\mathbf{u}\n\\]\n\nHyper-prior \\(\\theta\\sim\\pi(\\theta)\\)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#thinned-lgcp",
+    "href": "talks/2026/2026_Valencia_January/index.html#thinned-lgcp",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Thinned LGCP",
+    "text": "Thinned LGCP\nRemember:\n\nWe assume that \\(\\log(\\lambda(s))\\) is linear wrt the latent Gaussian field\n\n\nThe log-observed intensity is then:\n\\[\n\\log(\\lambda^{\\star}(s)) = \\log(\\lambda(s)) + \\log(g(s))\n\\]\n\nThis is linear only if\n\\[\n\\log(g(s))\n\\]\nis linear…. which is often not the case!\n\n\n\nCan we bring these models into the family of models that are amenable to INLA?\n\n\nYes (up to a certain degree) and the method is implemented in the inlabru library"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#inlabru-linearizing-the-non-linear-term",
+    "href": "talks/2026/2026_Valencia_January/index.html#inlabru-linearizing-the-non-linear-term",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "inlabru: linearizing the non-linear term",
+    "text": "inlabru: linearizing the non-linear term\nLet \\(\\tilde{\\eta}(\\mathbf{u})\\) be the non-linear predictor, and let \\(\\bar{\\eta}(\\mathbf{u})\\) be the 1st order Taylor approximation at some \\(\\mathbf{u}_0\\) \\[\n\\bar{\\eta}(\\mathbf{u}) = \\tilde{\\eta}(\\mathbf{u}_0) + B(\\mathbf{u} - \\mathbf{u}_0) = [\\tilde{\\eta}(\\mathbf{u}_0)-B\\mathbf{u}_0] + B\\mathbf{u}\n\\]\nwhere \\(B\\) is the derivative matrix for the non-linear predictor, evaluated at \\(\\mathbf{u}_0\\).\n\nThe non-linear observation model \\(\\tilde{\\pi}(\\mathbf{y}|\\mathbf{u}, θ)\\) is approximated by \\[\n\\bar{\\pi}(\\mathbf{y}|\\mathbf{u}, θ)  = \\pi(\\mathbf{y}|\\bar{\\eta}(\\mathbf{u}), θ)\\approx\\pi(\\mathbf{y}|\\tilde{\\eta}(\\mathbf{u}), θ) = \\tilde{\\pi}(\\mathbf{y}|\\mathbf{u}, θ)\n\\] This model can be fit with INLA."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#iterative-inla-algorithm",
+    "href": "talks/2026/2026_Valencia_January/index.html#iterative-inla-algorithm",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Iterative INLA algorithm",
+    "text": "Iterative INLA algorithm\n\nStart from a point \\(\\mathbf{u}_0^{(0)}\\)\nRepeat until convergence\n\nCompute the first order Taylor approximation for \\(\\tilde{\\eta}(\\mathbf{u})\\) \\[\n\\bar{\\eta}(\\mathbf{u}) =  [\\tilde{\\eta}(\\mathbf{u}_0)-B\\mathbf{u}_0] + B\\mathbf{u}\n\\]\nFit the model with INLA\nCompute \\[\n\\begin{aligned}\n\\hat{\\theta}^{(k)} & = \\text{argmax}_{\\theta}\\bar{\\pi}(\\theta|\\mathbf{y}; \\mathbf{u}_0^{{(k-1)}}) \\\\\n\\hat{\\mathbf{u}}^{(k)} & = \\text{argmax}_{\\mathbf{u}}\\bar{\\pi}(\\mathbf{y}| \\hat{\\theta}; \\mathbf{u}_0^{{(k-1)}}) \\\\\n\\end{aligned}\n\\]\nchoose the next linearisation point as the point \\(\\mathbf{u}^{(k)}\\) as \\[\n\\mathbf{u}^{(k)} = (1-\\alpha)\\mathbf{u}^{(k-1)} + \\alpha \\mathbf{u}^{(k-1)}\n\\]\n\nfor some \\(\\alpha &gt;0\\) that minimises a norm of the difference between the linearised and non-linear predictors."
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#some-notes",
+    "href": "talks/2026/2026_Valencia_January/index.html#some-notes",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Some notes",
+    "text": "Some notes\n\nUpon convergence (\\(|\\tilde{\\eta}(\\mathbf{u}_*) - \\bar{\\eta}(\\mathbf{u}_*)| = 0\\)), the overall posterior approximation accuracy depends on the degree of nonlinearity in the vicinity of \\(\\mathbf{u}_*\\)\nSome methods exist to check the approximation accuracy.\nGreat care has to be taken when defining prior for the non-linear terms!\nMore details in the inlabru ArXiv paper1!\n\n “inlabru: software for fitting latent Gaussian models with non-linear predictors” https://arxiv.org/abs/2407.00791"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#modeling-the-intensity-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#modeling-the-intensity-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Modeling the intensity",
+    "text": "Modeling the intensity\n\nThe “true” (unthinned) intensity: \\[\n\\lambda(s) = \\beta_0 + \\beta^TX(s) + \\sum_k f_k(x_k(s)) + u(s)\n\\]\n\n\\(u(s)\\) is a GRF with Matern correlation function\ncould be spatio-temporal but would need more data!\n\nThe observed intensity:\n\n\\[\n\\lambda_j^{\\star}(s) = t_j \\  \\lambda(s)\\ g_j(s);\\qquad j = 1,\\dots\n\\]\nwhere\n\n\\(\\lambda(s)\\) is the true density\n\\(g_j(s)\\) is the thinning function for observation process \\(j\\)\n\\(t_j\\) is a time-scaling factor ( this is known for all observations processes except for the social data!)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#accounting-for-spatial-bias-detection-functions",
+    "href": "talks/2026/2026_Valencia_January/index.html#accounting-for-spatial-bias-detection-functions",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Accounting for spatial bias: detection functions",
+    "text": "Accounting for spatial bias: detection functions\n\nFor FERRY data \\[\ng_{\\text{ferry}}(s)  = \\exp\\left(-\\frac{1}{\\sigma^2_{\\text{ferry}}} d(s)^2\\right)\n\\] where \\(d(s)\\) is the perpendicular distance to the transect"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#accounting-for-spatial-bias-detection-functions-1",
+    "href": "talks/2026/2026_Valencia_January/index.html#accounting-for-spatial-bias-detection-functions-1",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Accounting for spatial bias: detection functions",
+    "text": "Accounting for spatial bias: detection functions\n\nFor FERRY data \\[\ng_{\\text{ferry}}(s)  = \\exp\\left(-\\frac{1}{\\sigma^2_{\\text{ferry}}} d(s)^2\\right)\n\\] where \\(d(s)\\) is the perpendicular distance to the transect\nFor UNIRM data \\[\ng_{unirm}(s)  = \\begin{cases}\n1 \\text{ for } d(s)&lt; K\\\\\n0 \\text{ for } d(s)&gt; K\\\\\n\\end{cases}\n\\]\n\n\n\nHow about the SOCIAL MEDIA data?"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#modeling-spatial-bias-for-social-data",
+    "href": "talks/2026/2026_Valencia_January/index.html#modeling-spatial-bias-for-social-data",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Modeling spatial bias for social data",
+    "text": "Modeling spatial bias for social data\n\nWe assume that the sightings are biased towards area where there are more leisure boats….\nbut we do not have data about that…\nThree different ideas:\n\nDistance from the coastline\nBoat density data from EmodNET platform\nUse animal intensity as proxy for small boat intensity"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#distance-from-the-coastline",
+    "href": "talks/2026/2026_Valencia_January/index.html#distance-from-the-coastline",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Distance from the coastline",
+    "text": "Distance from the coastline\n\nAssume that the closer to the coast there are more small boats…. higher detection probability close to the coast\n\n\nThis in is not necessary true (people like islands a lot!)\nThis is also a covariate often used to model species density\n\n\\[\ng_{\\tiny{SOCIAL\\_COAST}}(s) = \\exp\\left\\{-\\frac{d(s)^2}{\\xi_{\\tiny{FERRY}}^2}\\right\\}\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#emodnet-data-for-boat-density",
+    "href": "talks/2026/2026_Valencia_January/index.html#emodnet-data-for-boat-density",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "EMODnet data for boat density",
+    "text": "EMODnet data for boat density\n\nEmodNET (European Marine Observation and Data Network) records boats using AIS (Automatic Identification System, mandatory above 15m length)\n\nDetection probability is higher where boat intensity is higher\nDoes not consider small boats which are often those reporting sightings\n\n\\[\ng_{\\tiny{SOCIAL\\_EMODNET}}(s) = \\Phi\\left\\{\\frac{d(s)^2}{\\xi_{\\tiny{EMODNET}}^2}-  \\mu_{\\tiny{EMODNET}} \\right\\}\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#social-data-sightings-for-all-species",
+    "href": "talks/2026/2026_Valencia_January/index.html#social-data-sightings-for-all-species",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Social data sightings for all species",
+    "text": "Social data sightings for all species\n\n\nUse all sightings as a proxy for boat density\nData include species with very different behavior\nDetection probability is higher where boat intensity is higher\n\n\\[\ng_{\\tiny{SOCIAL\\_ANIMAL}}(s) = \\Phi\\left\\{\\frac{d(s)^2}{\\xi_{\\tiny{ANIMAL}}^2}-  \\mu_{\\tiny{ANIMAL}} \\right\\}\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#putting-things-togeter",
+    "href": "talks/2026/2026_Valencia_January/index.html#putting-things-togeter",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Putting things togeter",
+    "text": "Putting things togeter\nThe true intensity:\n\\[\n\\lambda(s) = \\beta_0 + \\beta X(s) +  u(s); \\qquad u(s)\\sim GRF(\\rho, \\sigma^2_u)\n\\]\nThe observed intensities:\n\\[\n\\begin{aligned}\n\\lambda_{\\tiny{FERRY}}(s) &= t_{\\tiny{FERRY}} \\  \\lambda(s)\\ g_{\\tiny{FERRY}}(s);\\\\\n\\lambda_{\\tiny{UNIRM}}(s) &= t_{\\tiny{UNIRM}} \\  \\lambda(s)\\ g_{\\tiny{UNIRM}}(s);\\\\\n\\lambda_{\\tiny{SOCIAL}}(s) &= t_{\\tiny{SOCIAL}} \\  \\lambda(s)\\ g_{\\tiny{SOCIAL\\_??}}(s);\\\\\n\\end{aligned}\n\\]\n\nFour choices for \\(g_{\\small{SOCIAL}}(s)\\):\n\nNo (constant) detection \\(g_{\\tiny{SOCIAL\\_BASELINE}}(s) = 1\\) (benchmark)\nDetection based on distance from the coastline \\(g_{\\tiny{SOCIAL\\_COAST}}(s)\\)\nDetection based on boat intensity \\(g_{\\tiny{SOCIAL\\_EMODNET}}(s)\\)\nDetection based on sightings intensity \\(g_{\\tiny{SOCIAL\\_ANIMAL}}(s)\\)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#is-the-model-identifiable",
+    "href": "talks/2026/2026_Valencia_January/index.html#is-the-model-identifiable",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Is the model identifiable?",
+    "text": "Is the model identifiable?\nLow sightings intensity can result from:\n\nThere are no animals in the area\nThere are no observer in the area\nHow to solve this?\n\nGather information about the observation process\nUse informative prior to “guide” inference"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#priors-and-posteriors-for-the-parameters-in-the-detection-functions",
+    "href": "talks/2026/2026_Valencia_January/index.html#priors-and-posteriors-for-the-parameters-in-the-detection-functions",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Priors and posteriors for the parameters in the detection functions",
+    "text": "Priors and posteriors for the parameters in the detection functions\n\n\n\\(g_{\\tiny{SOCIAL\\_COAST}}(s)\\)\n\n\n\\(g_{\\tiny{SOCIAL\\_EMODNET}}(s)\\)\n\n\n\n\n\\(g_{\\tiny{SOCIAL\\_ANIMAL}}(s)\\)"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#reconstructed-intensity-surface-stenella",
+    "href": "talks/2026/2026_Valencia_January/index.html#reconstructed-intensity-surface-stenella",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Reconstructed intensity surface (Stenella)",
+    "text": "Reconstructed intensity surface (Stenella)\n\n\nPosterior Median \n\nRWPCI \n\\[\n\\text{RWPCI} = (Q_3-Q_1)/Q_2\n\\]"
+  },
+  {
+    "objectID": "talks/2026/2026_Valencia_January/index.html#reconstructed-intensity-surface-tursiope",
+    "href": "talks/2026/2026_Valencia_January/index.html#reconstructed-intensity-surface-tursiope",
+    "title": "A Spatial Tale of Two Dolphin Species and Many Data Sources",
+    "section": "Reconstructed intensity surface (Tursiope)",
+    "text": "Reconstructed intensity surface (Tursiope)\n\n\nPosterior Median \n\nRWPCI \n\\[\n\\text{RWPCI} = (Q_3-Q_1)/Q_2\n\\]"
+  },
+  {
     "objectID": "talks/index.html",
     "href": "talks/index.html",
     "title": "Talks",
     "section": "",
-    "text": "Valencia - Workshop"
+    "text": "Valencia (Spain), 3º Edition Workshop on Hierarchical Bayesian Spatio-Temporal Modelling 5-6/05/2026 Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality\nValencia (Spain), Department Seminar, 20/01/2026 A Spatial Tale of Two Dolphin Species and Many Data Sources"
   },
   {
     "objectID": "talks/index.html#section",
     "href": "talks/index.html#section",
     "title": "Talks",
     "section": "",
-    "text": "Valencia - Workshop"
+    "text": "Valencia (Spain), 3º Edition Workshop on Hierarchical Bayesian Spatio-Temporal Modelling 5-6/05/2026 Extending Lee–Carter Models with inlabru: Spatio-Temporal Applications in Health and Mortality\nValencia (Spain), Department Seminar, 20/01/2026 A Spatial Tale of Two Dolphin Species and Many Data Sources"
+  },
+  {
+    "objectID": "talks/index.html#section-1",
+    "href": "talks/index.html#section-1",
+    "title": "Talks",
+    "section": "2025",
+    "text": "2025\n\nGlasgow (Scotland), INLA: past, present, and future 21-23 May 2025, 20 Years of INLA\nRome (Italy), GRASPA 2025 Conference 5-17 September 2025, Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/LICENSE.html",
+    "href": "talks/2025/GRASPA/LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2024 Shafayet Khan Shafee\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-starting-point",
+    "href": "talks/2025/Glasgow/index.html#the-starting-point",
+    "title": "20 Years of INLA",
+    "section": "The starting point…",
+    "text": "The starting point…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmrf-book",
+    "href": "talks/2025/Glasgow/index.html#the-gmrf-book",
+    "title": "20 Years of INLA",
+    "section": "The GMRF book",
+    "text": "The GMRF book\n\n\n\nProperties of GMRF\nNumerical Algorithms and simulation\nIntrinsic GMRF\nHierarchical GMRF and MCMC\n\n\nStatistical inference in hierarchical models, however, can typically only be done using simulation, in particular through Markov chain Monte Carlo (MCMC) methods. […] We emphasize the concept of blocking, i.e., updating all or nearly all of the parameters jointly, which we believe to be perhaps the only way to overcome problems with convergence and mixing of ordinary MCMC algorithms.\n\n\nFrom (Rue and Held 2005)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#hierarchical-gmrf",
+    "href": "talks/2025/Glasgow/index.html#hierarchical-gmrf",
+    "title": "20 Years of INLA",
+    "section": "Hierarchical GMRF",
+    "text": "Hierarchical GMRF\n\n\\(\\mathbf{y}|\\mathbf{x},\\theta\\), Observation model (likelihood)\n\\(\\mathbf{x}|\\theta\\), Gaussian random field\n\\(\\theta\\) Hyperparameters"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#hierarchical-gmrf-1",
+    "href": "talks/2025/Glasgow/index.html#hierarchical-gmrf-1",
+    "title": "20 Years of INLA",
+    "section": "Hierarchical GMRF",
+    "text": "Hierarchical GMRF\n\n\\(\\mathbf{y}|\\mathbf{x},\\theta\\), Observation model (likelihood)\n\\(\\mathbf{x}|\\theta\\), Gaussian random field\n\\(\\theta\\) Hyperparameters\n\nExtra requirements\n\nThe latent field \\(\\mathbf{x}\\) is a GMRF \\[\n\\pi(\\mathbf{x}|\\theta)\\propto\\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x}\\right\\}\n\\]\n\nThe precision matrix \\(\\mathbf{Q}\\) is sparse."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#hierarchical-gmrf-2",
+    "href": "talks/2025/Glasgow/index.html#hierarchical-gmrf-2",
+    "title": "20 Years of INLA",
+    "section": "Hierarchical GMRF",
+    "text": "Hierarchical GMRF\n\n\\(\\mathbf{y}|\\mathbf{x},\\theta\\), Observation model (likelihood)\n\\(\\mathbf{x}|\\theta\\), Gaussian random field\n\\(\\theta\\) Hyperparameters\n\nExtra requirements\n\nThe latent field \\(x\\) is a GMRF \\(\\pi(\\mathbf{x}|\\theta)\\propto\\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x}\\right\\}\\)\nWe can factorize the likelihood as: \\(\\pi(\\mathbf{y}|\\mathbf{x},\\theta) = \\prod_i\\pi(y_i|\\eta_i,\\theta)\\)\n\nData are conditional independent give \\(\\mathbf{x}\\) and \\(\\theta\\)\nEach data point depends on only 1 element of the latent field: the predictor \\(\\eta_i\\)\n\\(\\eta\\) is a linear combination of other elements of \\(\\mathbf{x}\\): \\(\\eta = \\mathbf{A}^T\\mathbf{x}\\)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#hierarchical-gmrf-3",
+    "href": "talks/2025/Glasgow/index.html#hierarchical-gmrf-3",
+    "title": "20 Years of INLA",
+    "section": "Hierarchical GMRF",
+    "text": "Hierarchical GMRF\n\n\\(\\mathbf{y}|\\mathbf{x},\\theta\\), Observation model (likelihood)\n\\(\\mathbf{x}|\\theta\\), Gaussian random field\n\\(\\theta\\) Hyperparameters\n\nExtra requirements\n\nThe latent field \\(x\\) is a GMRF \\(\\pi(\\mathbf{x}|\\theta)\\propto\\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x}\\right\\}\\)\nWe can factorize the likelihood as: \\(\\pi(\\mathbf{y}|\\mathbf{x},\\theta) = \\prod_i\\pi(y_i|\\eta_i,\\theta)\\)\nThe vector of hyperparameters \\(\\theta\\) is low dimensional."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#one-example",
+    "href": "talks/2025/Glasgow/index.html#one-example",
+    "title": "20 Years of INLA",
+    "section": "One example",
+    "text": "One example\nA simple linear model:\n\n\n\\[\\begin{aligned}\ny_i|\\eta_i,\\sigma^2 & \\sim \\mathcal{N}(\\eta_i,\\sigma^2)\\\\\n\\eta_i & = \\beta_0 + \\beta_1 u_i\n\\end{aligned}\\]\n\n\\[\\begin{aligned}\n\\beta_0,\\beta_1 & \\sim \\mathcal{N}(0,\\tau^{-1}_{\\beta})\\\\\n\\sigma^2 & \\sim \\pi(\\sigma^2)\n\\end{aligned}\\]\n\n\nWhat is the latent field?\nWhat are the hyperparameters?"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#one-example-1",
+    "href": "talks/2025/Glasgow/index.html#one-example-1",
+    "title": "20 Years of INLA",
+    "section": "One example",
+    "text": "One example\nA simple linear model:\n\n\n\\[\\begin{aligned}\ny_i|\\eta_i,\\sigma^2 & \\sim \\mathcal{N}(\\eta_i,\\sigma^2)\\\\\n\\eta_i & = \\beta_0 + \\beta_1 u_i + \\color{red}{\\epsilon_i}\\\\\n\\color{red}{\\epsilon_i} & \\color{red}{\\sim\\mathcal{N}(0,\\tau^{-1}_{\\epsilon})} \\qquad \\color{red}{\\text{large, fixed  }\\tau_{\\epsilon}}\n\\end{aligned}\\]\n\n\\[\\begin{aligned}\n\\beta_0,\\beta_1 & \\sim \\mathcal{N}(0,\\tau^{-1}_{\\beta})\\\\\n\\sigma^2 & \\sim \\pi(\\sigma^2)\n\\end{aligned}\\]\n\n\n\n\nWhat is the latent field? \\[\n\\mathbf{x} = \\{\\eta_1, \\dots, \\eta_n, \\beta_0, \\beta_1\\}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#one-example-2",
+    "href": "talks/2025/Glasgow/index.html#one-example-2",
+    "title": "20 Years of INLA",
+    "section": "One example",
+    "text": "One example\nA simple linear model:\n\n\n\\[\\begin{aligned}\ny_i|\\eta_i,\\sigma^2 & \\sim \\mathcal{N}(\\eta_i,\\sigma^2)\\\\\n\\eta_i & = \\beta_0 + \\beta_1 u_i + \\color{red}{\\epsilon_i}\\\\\n\\color{red}{\\epsilon_i} & \\color{red}{\\sim\\mathcal{N}(0,\\tau^{-1}_{\\epsilon})} \\qquad \\color{red}{\\text{large, fixed  }\\tau_{\\epsilon}}\n\\end{aligned}\\]\n\n\\[\\begin{aligned}\n\\beta_0,\\beta_1 & \\sim \\mathcal{N}(0,\\tau^{-1}_{\\beta})\\\\\n\\sigma^2 & \\sim \\pi(\\sigma^2)\n\\end{aligned}\\]\n\n\n\n\nWhat is the latent field? \\[\n\\mathbf{x} = \\{\\eta_1, \\dots, \\eta_n, \\beta_0, \\beta_1\\}\n\\] \\[\n\\mathbf{x}\\sim\\mathcal{N}(0,\\mathbf{Q})\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#one-example-3",
+    "href": "talks/2025/Glasgow/index.html#one-example-3",
+    "title": "20 Years of INLA",
+    "section": "One example",
+    "text": "One example\nA simple linear model:\n\n\n\\[\\begin{aligned}\ny_i|\\eta_i,\\sigma^2 & \\sim \\mathcal{N}(\\eta_i,\\sigma^2)\\\\\n\\eta_i & = \\beta_0 + \\beta_1 u_i + {\\epsilon_i}\\\\\n{\\epsilon_i} & {\\sim\\mathcal{N}(0,\\tau^{-1}_{\\epsilon})} \\qquad {\\text{large, fixed  }\\tau_{\\epsilon}}\n\\end{aligned}\\]\n\n\\[\\begin{aligned}\n\\beta_0,\\beta_1 & \\sim \\mathcal{N}(0,\\tau^{-1}_{\\beta})\\\\\n\\sigma^2 & \\sim \\pi(\\sigma^2)\n\\end{aligned}\\]\n\n\n\n\nWhat is the latent field? \\[\n\\mathbf{x} = \\{\\eta_1, \\dots, \\eta_n, \\beta_0, \\beta_1\\}\n\\] \\[\n\\mathbf{x}\\sim\\mathcal{N}(0,\\mathbf{Q})\n\\]\nWhat are the hyperparameters? \\[\n\\theta = \\{\\sigma^2\\}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#inference",
+    "href": "talks/2025/Glasgow/index.html#inference",
+    "title": "20 Years of INLA",
+    "section": "Inference",
+    "text": "Inference\nMain Inferential Goal:\n\\[\\begin{aligned}\n\\overbrace{\\pi(\\mathbf{x}, {\\theta}\\mid\\mathbf{y})}^{{\\text{Posterior}}} &\\propto \\overbrace{\\pi({\\theta}) \\pi(\\mathbf{x}\\mid{\\theta})}^{{\\text{Prior}}} \\overbrace{\\prod_{i}\\pi(y_i \\mid \\eta_i, {\\theta})}^{{\\text{Likelihood}}}\n\\end{aligned}\\]\n\nThe posterior distribution is, in general, not available in closed form…\n..what to do then?\n20 years ago MCMC was practically the only answer."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#mcmc-algorithm",
+    "href": "talks/2025/Glasgow/index.html#mcmc-algorithm",
+    "title": "20 Years of INLA",
+    "section": "MCMC algorithm",
+    "text": "MCMC algorithm\n\n\n\nStart somewhere (pick an initial guess).\nPropose a move (randomly pick a new guess).\nDecide to accept or reject the new guess based on how likely it is.\nRepeat the process many times.\n\nThis builds a “chain” of guesses that can be used for inference.\n\n\n\n\n\n\n\n\n\n\n\n\nBecause of the dependence structure in the model, single site update can be very slow."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#blocking-strategy-for-latent-gmrf",
+    "href": "talks/2025/Glasgow/index.html#blocking-strategy-for-latent-gmrf",
+    "title": "20 Years of INLA",
+    "section": "Blocking strategy for latent GMRF",
+    "text": "Blocking strategy for latent GMRF\n\\[\\begin{aligned}\n\\overbrace{\\pi(\\mathbf{x}, {\\theta}\\mid\\mathbf{y})}^{{\\text{Posterior}}} &\\propto \\overbrace{\\pi({\\theta}) \\pi(\\mathbf{x}\\mid{\\theta})}^{{\\text{Prior}}} \\overbrace{\\prod_{i}\\pi(y_i \\mid \\eta_i, {\\theta})}^{{\\text{Likelihood}}}\n\\end{aligned}\\]\n\nAlgorithm:\n\nPropose \\(\\theta^{\\prime}\\sim q_1(\\theta^{\\prime}|\\theta)\\)\nPropose \\(\\mathbf{x}^{\\prime}\\sim q_2(\\mathbf{x}|\\theta^{\\prime},\\mathbf{y})\\)\nAccept or reject \\((\\theta^{\\prime}, \\mathbf{x}^{\\prime})\\) jointly"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#single-site-vs-block-update",
+    "href": "talks/2025/Glasgow/index.html#single-site-vs-block-update",
+    "title": "20 Years of INLA",
+    "section": "Single-site vs Block Update",
+    "text": "Single-site vs Block Update\n\n\nSingle-site Update\n\n\n\n\n\n\n\n\n\n\nBlock Update"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmrf-approximation",
+    "href": "talks/2025/Glasgow/index.html#the-gmrf-approximation",
+    "title": "20 Years of INLA",
+    "section": "The GMRF Approximation",
+    "text": "The GMRF Approximation\nFor latent GMRF one can build a proposal for \\(\\mathbf{x}|\\theta, \\mathbf{y}\\) using the GMRF approximation…\nwhich you know as it a fundamental part of INLA! 😃\n\\[\n\\begin{aligned}\n\\pi(\\mathbf{x}\\mid {\\theta},\\mathbf{y}) & \\propto \\pi(\\mathbf{x}\\mid {\\theta}) \\pi(\\mathbf{y}|\\mathbf{x},\\theta) \\\\\n& \\propto \\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x} + \\sum \\log \\pi(y_i|\\eta_i,\\theta)\\right\\}\\\\\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmrf-approximation-1",
+    "href": "talks/2025/Glasgow/index.html#the-gmrf-approximation-1",
+    "title": "20 Years of INLA",
+    "section": "The GMRF Approximation",
+    "text": "The GMRF Approximation\n\\[\n\\begin{aligned}\n\\pi(\\mathbf{x}\\mid {\\theta},\\mathbf{y}) & \\propto \\pi(\\mathbf{x}\\mid {\\theta}) \\pi(\\mathbf{y}|\\mathbf{x},\\theta) \\\\\n& \\propto \\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x} + \\sum \\log \\pi(y_i|\\eta_i,\\theta)\\right\\}\\\\\n\\end{aligned}\n\\]\n\\[\n\\begin{aligned}\n& \\approx \\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x} + \\sum (b_i\\eta_i - \\frac{1}{2}c_i\\eta_i^2)\\right\\}\n\\end{aligned}\n\\]\nRecall \\[\n\\begin{aligned}\n        f(x) \\approx f(x_0) + f'(x_0)(x-x_0)+ \\frac{1}{2} f''(x_0)(x-x_0)^2\n        = a+ bx - \\frac{1}{2}cx^2\n\\end{aligned}\n\\] with\n\\[\n\\begin{aligned}\nb &=f'(x_0) - f''(x_0)x_0\\\\\nc &= -f''(x_0)\n\\end{aligned}\n\\]."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmrf-approximation-2",
+    "href": "talks/2025/Glasgow/index.html#the-gmrf-approximation-2",
+    "title": "20 Years of INLA",
+    "section": "The GMRF Approximation",
+    "text": "The GMRF Approximation\n\\[\n\\begin{aligned}\n\\pi(\\mathbf{x}\\mid {\\theta},\\mathbf{y}) & \\propto \\pi(\\mathbf{x}\\mid {\\theta}) \\pi(\\mathbf{y}|\\mathbf{x},\\theta) \\\\\n& \\propto \\exp\\left\\{-\\frac{1}{2}\\mathbf{x}^T\\mathbf{Q}\\mathbf{x} + \\sum \\log \\pi(y_i|\\eta_i,\\theta)\\right\\}\\\\\n& = \\exp \\left\\{ -\\frac{1}{2} \\mathbf{x}^T\\tilde{\\mathbf{Q}}  \\mathbf{x} + \\tilde{\\mathbf{b}}\\mathbf{x}\\right\\}\n\\end{aligned}\n\\] Which means that we approximate \\(\\pi(\\mathbf{x}\\mid {\\theta},\\mathbf{y})\\) with\n\\[\n\\mathcal{N}(\\tilde{\\mathbf{Q}}^{-1}\\tilde{\\mathbf{b}},\\tilde{\\mathbf{Q}}^{-1})\\  \\text{ with   }\\ \\tilde{\\mathbf{Q}} = \\mathbf{Q} +\\begin{bmatrix}\n\\text{diag}(\\mathbf{c}) & 0\\\\\n0& 0\n\\end{bmatrix}\\qquad \\tilde{\\mathbf{b}} = [\\mathbf{b}\\ 0]^T\n\\]\n\n\nQ: Why do we want \\(\\mathbf{\\eta}\\) to be part of the \\(\\mathbf{x}\\) vector?\n\n\nIt creates a general structure equal for all models\nIt allows to easily do inference for \\(\\eta\\)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmfr-approximation---one-dimensional-example",
+    "href": "talks/2025/Glasgow/index.html#the-gmfr-approximation---one-dimensional-example",
+    "title": "20 Years of INLA",
+    "section": "The GMFR approximation - One dimensional example",
+    "text": "The GMFR approximation - One dimensional example\n\n\nAssume \\[\n\\begin{aligned}\n  y|\\lambda \\sim\\text{Poisson}(\\lambda)  & \\text{ Likelihood}\\\\\n  \\eta = \\log(\\lambda)  & \\text{ Predictor}\\\\\n  \\mathbf{x}  = \\eta & \\text{ Latent field }\\\\\n  x\\sim\\mathcal{N}(0,1) & \\text{ Latent Model}\n\\end{aligned}\n\\] we have that\n\\[\n\\begin{aligned}\n  \\pi(x|y) & \\propto\\pi(y|x)\\pi(x)\\\\\n  & \\propto\\exp\\{ -\\frac{1}{2}x^2+\n  \\underbrace{xy-\\exp(x)}_{\\text{non-gaussian part}}\n  \\}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-gmfr-approximation",
+    "href": "talks/2025/Glasgow/index.html#the-gmfr-approximation",
+    "title": "20 Years of INLA",
+    "section": "The GMFR approximation",
+    "text": "The GMFR approximation\n\n😄 Easy to compute\n😄 Exact for Gaussian likelihood\n😄 Good when you have little or a lot of data\n😟 No skewness"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#block-update-for-latent-gmrf",
+    "href": "talks/2025/Glasgow/index.html#block-update-for-latent-gmrf",
+    "title": "20 Years of INLA",
+    "section": "Block Update for latent GMRF",
+    "text": "Block Update for latent GMRF\n\nPropose \\(\\theta^{\\prime}\\sim q_1(\\theta^{\\prime}|\\theta)\\)\nPropose \\(\\mathbf{x}^{\\prime}\\sim \\pi_G(\\mathbf{x}|\\theta^{\\prime},\\mathbf{y})\\)\nAccept or reject \\((\\theta^{\\prime}, \\mathbf{x}^{\\prime})\\) jointly\n\n\nWhat is \\(q_1(\\cdot)\\) ?\n\n\nThis you also recognize from INLA 😃\n\\[\n\\pi(\\mathbf{\\theta} \\mid \\mathbf{y}) \\propto \\frac{\n           \\pi(\\mathbf{x}, \\mathbf{y}\\mid \\mathbf{\\theta})}\n      {\\pi(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})} \\: \\Bigg|_{\\text{For any value of } \\mathbf{x}}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation",
+    "title": "20 Years of INLA",
+    "section": "The Laplace Approximation",
+    "text": "The Laplace Approximation\n\\[\n\\pi(\\mathbf{\\theta} \\mid \\mathbf{y}) \\propto \\frac{\n            \\overbrace{\\pi( \\mathbf{y}\\mid \\mathbf{x},\\mathbf{\\theta})\\  \\pi(\\mathbf{\\theta})}^{\\text{Non-Gaussian, KNOWN}}  \\overbrace{\\pi( \\mathbf{x}\\mid \\mathbf{\\theta})}^{\\text{ Gaussian}}  }\n            {\\underbrace{\\pi(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})}_{\\text{Non-Gaussian,UNKNOWN}}}\\: \\Bigg|_{\\text{For any value of } \\mathbf{x}}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation-1",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation-1",
+    "title": "20 Years of INLA",
+    "section": "The Laplace Approximation",
+    "text": "The Laplace Approximation\n\\[\n\\begin{aligned}\n\\pi(\\mathbf{\\theta} \\mid  \\mathbf{y})  & \\propto \\frac{\n            \\pi( \\mathbf{y}\\mid \\mathbf{x},\\mathbf{\\theta})\\  \\pi(\\mathbf{\\theta})  \\pi( \\mathbf{x}\\mid \\mathbf{\\theta})  }\n            {\\pi(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})} \\: \\Bigg|_{\\text{For any value of } \\mathbf{x}}\\\\\n            & \\approx \\frac{\n            \\pi( \\mathbf{y}\\mid \\mathbf{x},\\mathbf{\\theta})\\  \\pi(\\mathbf{\\theta})  \\pi( \\mathbf{x}\\mid \\mathbf{\\theta})  }\n            {\\color{red}{\\pi_G(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})}}\\: \\Bigg|_{\\text{Accuracy depends on the value of } \\mathbf{x}}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation-2",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation-2",
+    "title": "20 Years of INLA",
+    "section": "The Laplace Approximation",
+    "text": "The Laplace Approximation\n\n\n\\[\n\\begin{aligned}\n\\pi(\\mathbf{\\theta} \\mid  \\mathbf{y})  & \\propto \\frac{\n            \\pi( \\mathbf{y}\\mid \\mathbf{x},\\mathbf{\\theta})\\  \\pi(\\mathbf{\\theta})  \\pi( \\mathbf{x}\\mid \\mathbf{\\theta})  }\n            {\\pi(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})}\\\\\n            & \\approx \\frac{\n            \\pi( \\mathbf{y}\\mid \\mathbf{x},\\mathbf{\\theta})\\  \\pi(\\mathbf{\\theta})  \\pi( \\mathbf{x}\\mid \\mathbf{\\theta})  }\n            {\\pi_G(\\mathbf{x} \\mid \\mathbf{y},\n            \\mathbf{\\theta})}  \\: \\Bigg|_{\\mathbf{x} = \\mathbf{x}^\\star(\\mathbf{\\theta})}\n\\end{aligned}\n\\]\nIf \\(\\theta\\) is low dimension we can actually compute this!\n\n\n\n\n\n\n\n\n\n\n\nThis is the Laplace approximation to \\(\\pi(\\theta|\\mathbf{y})\\) !"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#an-independent-sampler-for-latent-gmrf",
+    "href": "talks/2025/Glasgow/index.html#an-independent-sampler-for-latent-gmrf",
+    "title": "20 Years of INLA",
+    "section": "An independent sampler for latent GMRF",
+    "text": "An independent sampler for latent GMRF\n\nPropose \\(\\theta^{\\prime}\\sim \\tilde{\\pi}(\\theta|\\mathbf{y})\\)\nPropose \\(\\mathbf{x}^{\\prime}\\sim \\pi_G(\\mathbf{x}|\\theta^{\\prime},\\mathbf{y})\\)\nAccept or reject \\((\\theta^{\\prime}, \\mathbf{x}^{\\prime})\\) jointly\n\n\n\n\nDo we really need to sample?\nCan’t we just use the proposal distribution??\nThis is the idea that started the INLA project!"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-hyperparmeters",
+    "href": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-hyperparmeters",
+    "title": "20 Years of INLA",
+    "section": "Approximating the posterior for the hyperparmeters",
+    "text": "Approximating the posterior for the hyperparmeters\nThis seems to work very well for the hyperparmeters \\(\\theta\\) !!\n\n\n\n\n\n\nFrom (Rue and Martino 2007)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model",
+    "href": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model",
+    "title": "20 Years of INLA",
+    "section": "Approximating the posterior for the latent model",
+    "text": "Approximating the posterior for the latent model\nHow do we approximate \\(\\pi(x_i|\\mathbf{y})\\) ?\n\n\\[\n\\begin{aligned}\n\\tilde{\\pi}(x_i|{\\mathbf y}) &= \\int \\tilde{\\pi}(x_i|\\theta,{\\mathbf y})\\tilde{\\pi}(\\theta|{\\mathbf y})\\ d\\theta\\\\\n      &\\approx \\sum_k\\tilde{\\pi}(x_i|\\theta_k,{\\mathbf y})\\tilde{\\pi}(\\theta_k|{\\mathbf y}) \\Delta_k\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model-1",
+    "href": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model-1",
+    "title": "20 Years of INLA",
+    "section": "Approximating the posterior for the latent model",
+    "text": "Approximating the posterior for the latent model\nHow do we approximate \\(\\pi(x_i|\\mathbf{y})\\) ?\n\\[\n\\begin{aligned}\n\\tilde{\\pi}(x_i|{\\mathbf y}) &= \\int \\tilde{\\pi}(x_i|\\theta,{\\mathbf y})\\color{red}{\\tilde{\\pi}(\\theta|{\\mathbf y})}\\ d\\theta\\\\\n      &\\approx \\sum_k\\tilde{\\pi}(x_i|\\theta_k,{\\mathbf y})\\color{red}{\\tilde{\\pi}(\\theta_k|{\\mathbf y})} \\Delta_k\n\\end{aligned}\n\\]\n\nFor \\(\\color{red}{\\tilde{\\pi}(\\theta|{\\mathbf y})}\\) we have a solution"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model-2",
+    "href": "talks/2025/Glasgow/index.html#approximating-the-posterior-for-the-latent-model-2",
+    "title": "20 Years of INLA",
+    "section": "Approximating the posterior for the latent model",
+    "text": "Approximating the posterior for the latent model\nHow do we approximate \\(\\pi(x_i|\\mathbf{y})\\) ?\n\\[\n\\begin{aligned}\n\\tilde{\\pi}(x_i|{\\mathbf y}) &= \\int \\color{red}{\\tilde{\\pi}(x_i|\\theta,{\\mathbf y})}{\\tilde{\\pi}(\\theta|{\\mathbf y})}\\ d\\theta\\\\\n      &\\approx \\sum_k\\color{red}{\\tilde{\\pi}(x_i|\\theta_k,{\\mathbf y})}{\\tilde{\\pi}(\\theta_k|{\\mathbf y})} \\Delta_k\n\\end{aligned}\n\\]\n\nFor \\(\\tilde{\\pi}(\\theta|{\\mathbf y})\\) we have a solution\nHow about \\(\\color{red}{\\tilde{\\pi}(x_i|\\theta,{\\mathbf y})}\\)? Can we use the GMRF approximation?"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#unfortunately-it-is-not-accurate-enough",
+    "href": "talks/2025/Glasgow/index.html#unfortunately-it-is-not-accurate-enough",
+    "title": "20 Years of INLA",
+    "section": "…unfortunately it is not accurate enough!",
+    "text": "…unfortunately it is not accurate enough!\n\n\n\n\n\n\n\n\nFrom (Rue and Martino 2007)\n\n\nNotes:\n\nResults are quite accurate in general\nThere can be errors in the location and/or errors due to the lack of skewness…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation",
+    "href": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation",
+    "title": "20 Years of INLA",
+    "section": "How to improve the GMRF Approximation?",
+    "text": "How to improve the GMRF Approximation?\nWe tried many different ideas ….\n\n\n.. some based on the Markov properties of the model…\n\n\n\n\n\n\n\nH. Rue, Steinsland, and Sveinung (2004)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-1",
+    "href": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-1",
+    "title": "20 Years of INLA",
+    "section": "How to improve the GMRF Approximation?",
+    "text": "How to improve the GMRF Approximation?\nWe tried many different ideas ….\n\n\n.. some based on the Markov properties of the model…\n.. others on ideas from particles filtering…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-2",
+    "href": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-2",
+    "title": "20 Years of INLA",
+    "section": "How to improve the GMRF Approximation?",
+    "text": "How to improve the GMRF Approximation?\nWe tried many different ideas ….\n\n\n.. some based on the Markov properties of the model…\n.. others on ideas from particles filtering…\n.. all involved some kind of sampling…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-3",
+    "href": "talks/2025/Glasgow/index.html#how-to-improve-the-gmrf-approximation-3",
+    "title": "20 Years of INLA",
+    "section": "How to improve the GMRF Approximation?",
+    "text": "How to improve the GMRF Approximation?\nWe tried many different ideas ….\n\n\n.. some based on the Markov properties of the model…\n.. others on ideas from particles filtering…\n.. all involved some kind of sampling…\n\n\n\n\n\n\n\n… and no one really worked ! 🤨"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#so-there-was-some-thinking",
+    "href": "talks/2025/Glasgow/index.html#so-there-was-some-thinking",
+    "title": "20 Years of INLA",
+    "section": "…so there was some thinking…",
+    "text": "…so there was some thinking…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#some-extra-thinking",
+    "href": "talks/2025/Glasgow/index.html#some-extra-thinking",
+    "title": "20 Years of INLA",
+    "section": "…some extra thinking…",
+    "text": "…some extra thinking…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#untill.",
+    "href": "talks/2025/Glasgow/index.html#untill.",
+    "title": "20 Years of INLA",
+    "section": "…untill….",
+    "text": "…untill…."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation.again",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation.again",
+    "title": "20 Years of INLA",
+    "section": "The Laplace approximation….again!",
+    "text": "The Laplace approximation….again!\n\\[\n\\pi(x_i|\\mathbf{y}) \\propto \\frac{\\overbrace{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}^{\\text{Known}} }{\\underbrace{\\pi(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}_{\\text{Unknown}}}\\: \\Bigg|_{\\text{For any value of } \\mathbf{x}_{-i} \\text{ and } \\theta}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-1",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-1",
+    "title": "20 Years of INLA",
+    "section": "The Laplace approximation….again!",
+    "text": "The Laplace approximation….again!\n\\[\n\\begin{aligned}\n\\pi(x_i|\\mathbf{y}) & \\propto \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{\\pi(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}\\: \\Bigg|_{\\text{For any value of } \\mathbf{x}_{-i} \\text{ and } \\theta} \\\\\n& \\approx  \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{\\color{red}{\\pi_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}}\\: \\Bigg|_{\\text{Accurancy depends on values of } \\mathbf{x}_{-i} \\text{ and } \\theta}\n\\end{aligned}\n\\]\n\\(\\pi_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y})\\) is the Gaussian approximation to \\(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y}\\)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-2",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-2",
+    "title": "20 Years of INLA",
+    "section": "The Laplace approximation….again!",
+    "text": "The Laplace approximation….again!\n\\[\n\\begin{aligned}\n\\pi(x_i|\\mathbf{y}) & \\propto \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{\\pi(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}\\: \\Bigg|_{\\text{For any value of } \\mathbf{x}_{-i} \\text{ and } \\theta} \\\\\n& \\approx  \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{\\color{red}{\\pi_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}}\\: \\Bigg|_{\\mathbf{x}_{-i} = \\mathbf{x}_{-i}^*(x_i,\\theta)}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-3",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-3",
+    "title": "20 Years of INLA",
+    "section": "The Laplace approximation….again!",
+    "text": "The Laplace approximation….again!\n\n\n\\[\n\\tilde{\\pi}_{LA}(x_i|\\mathbf{y})\\propto \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{{\\pi_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}}\\: \\Bigg|_{\\mathbf{x}_{-i} = \\mathbf{x}_{-i}^*(x_i,\\theta)}\n\\]\nVery easy !!\n…at least in theory 😃"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-4",
+    "href": "talks/2025/Glasgow/index.html#the-laplace-approximation.again-4",
+    "title": "20 Years of INLA",
+    "section": "The Laplace approximation….again!",
+    "text": "The Laplace approximation….again!\n\n\n\\[\n\\tilde{\\pi}_{LA}(x_i|\\mathbf{y})\\propto \\frac{\\pi(\\mathbf{x},\\mathbf{y},\\theta)}{{\\pi_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\n\\mathbf{y})}}\\: \\Bigg|_{\\mathbf{x}_{-i} = \\mathbf{x}_{-i}^*(x_i,\\theta)}\n\\]\nVery easy !!\n…at least in theory 😃\n\nIn practice:\n\n\\(\\tilde{\\pi}_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y}) \\neq \\tilde{\\pi}_{G}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y})\\)\nFor every value of \\(x_i\\) and \\(\\theta\\) we need to:\n\nFind the mode of \\(\\pi(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y})\\)\nFactorize the precision matrix of \\(\\tilde{\\pi}_{GG}(\\mathbf{x}_{-i}\\mid x_i,\\theta,\\mathbf{y})\\)\n\nNote: \\(\\theta\\) is low dimension but \\(\\mathbf{x}\\) does not need be (and usually it is not)!!\n\n…but these are just “technical” details 😉"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#a-brilliant-idea-and-many-many-many-technical-details-after-we-got-something",
+    "href": "talks/2025/Glasgow/index.html#a-brilliant-idea-and-many-many-many-technical-details-after-we-got-something",
+    "title": "20 Years of INLA",
+    "section": "A brilliant idea (and many many many technical details after) we got something !",
+    "text": "A brilliant idea (and many many many technical details after) we got something !\n\n\n\n\n\n\nRSS discussion meeting October 15th, 2008"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#section",
+    "href": "talks/2025/Glasgow/index.html#section",
+    "title": "20 Years of INLA",
+    "section": "",
+    "text": "So, now the the theory is there…but what about the implementation?"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#first-everything-was-implemented-in-c-using-the-gmrflib-library.",
+    "href": "talks/2025/Glasgow/index.html#first-everything-was-implemented-in-c-using-the-gmrflib-library.",
+    "title": "20 Years of INLA",
+    "section": "First everything was implemented in C using the GMRFLib library….",
+    "text": "First everything was implemented in C using the GMRFLib library….\n… and I used a lot of time computing precision matrices of this:\n\n\\(\\mathbf{x}\\sim\\mathcal{N}(0,\\mathbf{Q}_x^{-1})\\)\n\\(\\mathbf{y}|\\mathbf{x}\\sim\\mathcal{N}(\\mathbf{x},\\mathbf{Q}_y)\\)\n\n\\[\n\\mathbf{Q}_{(\\mathbf{x},\\mathbf{y})} =\n        \\begin{bmatrix}\n            \\mathbf{Q}_{x}+\\mathbf{Q}_{y} & -\\mathbf{Q}_{y} \\\\\n            -\\mathbf{Q}_{y} & \\mathbf{Q}_{y}\n        \\end{bmatrix}\n\\]\nfor every different model we wanted to fit!\n\nThis is ok if you only look at the Tokyo rainfall or German cancer data …\nbut not very practical on the long run 😀"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#then-came-the-inla-program",
+    "href": "talks/2025/Glasgow/index.html#then-came-the-inla-program",
+    "title": "20 Years of INLA",
+    "section": "… then came the inla program …",
+    "text": "… then came the inla program …\nThe idea was to automatize the construction of precision matrices !\n\n\nTokyo rainfall data\nObservation model: \\[\ny_t\\mid\\eta_t\\sim\\text{Binom}(p_t, n_t);\\quad p_t=\\frac{\\exp(\\eta_t)}{1 + \\exp(\\eta_t)}\n\\] Latent model and hyperparameters:\n\\[\n\\begin{aligned}\n\\eta_t  & = u_t + \\epsilon_t;\\\\\n\\mathbf{u}|\\theta_u &\\sim\\mathcal{N}(0,\\tau_u\\mathbf{Q});\\ \\tau_u\\sim\\pi(\\tau_u)\\\\\n\\epsilon & \\sim\\mathcal{N}(0,\\tau_{\\epsilon}\\mathbf{I});\\  \\tau_{\\epsilon}\\text{ large and known}\\\\\n\\mathbf{u} &  = (\\eta_1, \\dots, \\eta_T,\\mathbf{u})\n\\end{aligned}\n\\]\n\n&gt; inla -v TOKYO.ini\nTOKYO.ini file\n\n\n\n\n\n\nMartino and Rue (2008)"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#then-came-the-inla-program-1",
+    "href": "talks/2025/Glasgow/index.html#then-came-the-inla-program-1",
+    "title": "20 Years of INLA",
+    "section": "… then came the inla program …",
+    "text": "… then came the inla program …\nThe idea was to automatize the construction of precision matrices !\n\n\nTokyo rainfall data\nObservation model: \\[\n\\color{red}{y_t\\mid\\eta_t\\sim\\text{Binom}(p_t, n_t);\\quad p_t=\\frac{\\exp(\\eta_t)}{1 + \\exp(\\eta_t)}}\n\\] Latent model and hyperparameters:\n\\[\n\\begin{aligned}\n\\eta_t  & = u_t + \\epsilon_t;\\\\\n\\mathbf{u}|\\theta_u &\\sim\\mathcal{N}(0,\\tau_u\\mathbf{Q});\\ \\tau_u\\sim\\pi(\\tau_u)\\\\\n\\epsilon & \\sim\\mathcal{N}(0,\\tau_{\\epsilon}\\mathbf{I});\\  \\tau_{\\epsilon}\\text{ large and known}\\\\\n\\mathbf{u} &  = (\\eta_1, \\dots, \\eta_T,\\mathbf{u})\n\\end{aligned}\n\\]\n\n&gt; inla -v TOKYO.ini\nTOKYO.ini file"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#then-came-the-inla-program-2",
+    "href": "talks/2025/Glasgow/index.html#then-came-the-inla-program-2",
+    "title": "20 Years of INLA",
+    "section": "… then came the inla program …",
+    "text": "… then came the inla program …\nThe idea was to automatize the construction of precision matrices !\n\n\nTokyo rainfall data\nObservation model: \\[\n\\color{red}{y_t\\mid\\eta_t\\sim\\text{Binom}(p_t, n_t);\\quad p_t=\\frac{\\exp(\\eta_t)}{1 + \\exp(\\eta_t)}}\n\\] Latent model and hyperparameters:\n\\[\n\\begin{aligned}\n\\eta_t  & = u_t + \\epsilon_t;\\\\\n\\color{red}{\\mathbf{u}|\\theta_u} &\\color{red}{\\sim\\mathcal{N}(0,\\tau_u\\mathbf{Q});\\ \\tau_u\\sim\\pi(\\tau_u)}\\\\\n\\epsilon & \\sim\\mathcal{N}(0,\\tau_{\\epsilon}\\mathbf{I});\\  \\tau_{\\epsilon}\\text{ large and known}\\\\\n\\mathbf{u} &  = (\\eta_1, \\dots, \\eta_T,\\mathbf{u})\n\\end{aligned}\n\\]\n\n&gt; inla -v TOKYO.ini\nTOKYO.ini file"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#then-came-the-inla-program-3",
+    "href": "talks/2025/Glasgow/index.html#then-came-the-inla-program-3",
+    "title": "20 Years of INLA",
+    "section": "… then came the inla program …",
+    "text": "… then came the inla program …\nThe idea was to automatize the construction of precision matrices !\n\n\nTokyo rainfall data\nObservation model: \\[\n\\color{red}{y_t\\mid\\eta_t\\sim\\text{Binom}(p_t, n_t);\\quad p_t=\\frac{\\exp(\\eta_t)}{1 + \\exp(\\eta_t)}}\n\\] Latent model and hyperparameters:\n\\[\n\\begin{aligned}\n\\eta_t  & = u_t + \\epsilon_t;\\\\\n\\mathbf{u}|\\theta_u &\\sim\\mathcal{N}(0,\\tau_u\\mathbf{Q});\\ \\tau_u\\sim\\pi(\\tau_u)\\\\\n\\color{red}{\\epsilon} & \\color{red}{\\sim\\mathcal{N}(0,\\tau_{\\epsilon}\\mathbf{I});\\  \\tau_{\\epsilon}\\text{ large and known}}\\\\\n\\mathbf{u} &  = (\\eta_1, \\dots, \\eta_T,\\mathbf{u})\n\\end{aligned}\n\\]\n\n&gt; inla -v TOKYO.ini\nTOKYO.ini file"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#finally-the-first-version-of-the-r-inla-library",
+    "href": "talks/2025/Glasgow/index.html#finally-the-first-version-of-the-r-inla-library",
+    "title": "20 Years of INLA",
+    "section": ".. finally the first version of the R-INLA library!",
+    "text": ".. finally the first version of the R-INLA library!\n\nThe suggestion came from Arnoldo Frigessi at my defence\n…at the beginning Håvard was not too convinced it was necessary 🤫\nIt should have been an easy interface, only for GLMs……\n..now the repository contains more than 5 million lines 😲"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#some-more-numbers",
+    "href": "talks/2025/Glasgow/index.html#some-more-numbers",
+    "title": "20 Years of INLA",
+    "section": "Some more numbers…",
+    "text": "Some more numbers…\nAs for today there are 36 package on CRAN that depend or suggest R-INLA, and they are often downloaded."
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#some-more-numbers-1",
+    "href": "talks/2025/Glasgow/index.html#some-more-numbers-1",
+    "title": "20 Years of INLA",
+    "section": "Some more numbers…",
+    "text": "Some more numbers…\nThe JRSS-B paper is well known (and well cited) all over the world!"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#on-a-more-personal-note",
+    "href": "talks/2025/Glasgow/index.html#on-a-more-personal-note",
+    "title": "20 Years of INLA",
+    "section": "On a more personal note…",
+    "text": "On a more personal note…"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#on-a-more-personal-note-1",
+    "href": "talks/2025/Glasgow/index.html#on-a-more-personal-note-1",
+    "title": "20 Years of INLA",
+    "section": "On a more personal note…",
+    "text": "On a more personal note…\n\n\nHappy wife happy life!\n\n\n\n\nRue, sometimes in 2007!"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#first-i-think-inla-workshop-in-trondheim",
+    "href": "talks/2025/Glasgow/index.html#first-i-think-inla-workshop-in-trondheim",
+    "title": "20 Years of INLA",
+    "section": "First (I think) INLA workshop in Trondheim",
+    "text": "First (I think) INLA workshop in Trondheim"
+  },
+  {
+    "objectID": "talks/2025/Glasgow/index.html#references",
+    "href": "talks/2025/Glasgow/index.html#references",
+    "title": "20 Years of INLA",
+    "section": "References",
+    "text": "References\n\n\nMartino, S., and H. Rue. 2008. “Implementing Approximate Bayesian Inference for Latent Gaussian Models Using Integrated Nested Laplace Approximations: A Manual for the Inla-Program.” NTNU.\n\n\nRue, Håvard, Sara Martino, and Nicolas Chopin. 2009. “Approximate Bayesian Inference for Latent Gaussian Models by Using Integrated Nested Laplace Approximations.” Journal of the Royal Statistical Society: Series B (Statistical Methodology) 71 (2): 319–92. https://doi.org/https://doi.org/10.1111/j.1467-9868.2008.00700.x.\n\n\nRue, Håvard, Ingelin Steinsland, and Erland Sveinung. 2004. “Approximating Hidden Gaussian Markov Random Fields.” Journal of the Royal Statistical Society Series B: Statistical Methodology 66 (4): 877–92. https://doi.org/10.1111/j.1467-9868.2004.B5590.x.\n\n\nRue, and Held. 2005. Gaussian Markov Random Fields: Theory and Applications. CRC press.\n\n\nRue, and Martino. 2007. “Approximate Bayesian Inference for Hierarchical Gaussian Markov Random Field Models.” Journal of Statistical Planning and Inference 137 (10): 3177–92. https://doi.org/https://doi.org/10.1016/j.jspi.2006.07.016."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#italy-as-a-case-study-of-mortality-trends",
+    "href": "talks/2025/GRASPA/index.html#italy-as-a-case-study-of-mortality-trends",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Italy as a case-study of mortality trends",
+    "text": "Italy as a case-study of mortality trends\n\nSome of the lowest mortality levels in Europe: life expectancy of 83.4 in 2023.\nMarked geographical differences, reflecting inequalities in wealth, educational level and employment opportunities.\nSlowdown of mortality improvements since 2010.\n\n\nWell documented existence of a gendered geography of mortality in the second half of the 20th century – but surprisingly little attention to the geography of mortality in the 21st century"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#research-questions",
+    "href": "talks/2025/GRASPA/index.html#research-questions",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Research questions",
+    "text": "Research questions\nThe study contributes to understandings of geographical inequalities in mortality in the 21st century by asking:\n\nHow has gender- and age-specific mortality evolved over the last two decades?\nHow did mortality by age and gender vary at the provincial level?\nAnd have geographical inequalities widened during the slowdown of survival improvement of the 2010s?"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#research-questions-1",
+    "href": "talks/2025/GRASPA/index.html#research-questions-1",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Research questions",
+    "text": "Research questions\nThe study contributes to understandings of geographical inequalities in mortality in the 21st century by asking:\n\nHow has gender- and age-specific mortality evolved over the last two decades?\nHow did mortality by age and gender vary at the provincial level?\nAnd have geographical inequalities widened during the slowdown of survival improvement of the 2010s?\n\nModel 1\nModel 2"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#data-1",
+    "href": "talks/2025/GRASPA/index.html#data-1",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Data",
+    "text": "Data\nISTAT series of deaths and population counts:\n\n\n\nby single year of age\nseparately by gender\nfor each of the 107 Provinces\nfor the period 1999-2019.\n\n\n\n\n\n\n\n\n\nGood quality registers data – but subject to random variability given the varying (and small) size of the territorial units they refer to."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee Carter Model (with a spatial extension)",
+    "text": "The Lee Carter Model (with a spatial extension)\nWe assume the counts to be Poisson distributed \\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\alpha_x + \\beta_x\\kappa_t + \\omega_{sg_x}+ \\epsilon_{xts}\n\\]"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-1",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-1",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee Carter Model (with a spatial extension)",
+    "text": "The Lee Carter Model (with a spatial extension)\nWe assume the counts to be Poisson distributed \\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\underbrace{\\alpha_x + \\beta_x\\kappa_t}_{1} + \\omega_{sg_x} + \\epsilon_{xts}\n\\] 1. Traditional Lee-Carter model\n\n\\(\\alpha_x\\): age profile (Gaussian iid model)\n\\(\\kappa_t\\): time effect (RW2 model)\n\\(\\beta_x\\): age-specific multiplication factor (Gaussian iid model)"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-2",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-2",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee Carter Model (with a spatial extension)",
+    "text": "The Lee Carter Model (with a spatial extension)\nWe assume the counts to be Poisson distributed \\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\underbrace{{\\alpha_x + \\beta_x\\kappa_t}}_{1} + \\underbrace{\\omega_{sg_x}}_{2} + \\epsilon_{xts}\n\\] 1. Traditional Lee-Carter model\n\nSpatial effect: allowed to vary over 10 different age classes (ICAR model for each age class)"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-3",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model-with-a-spatial-extension-3",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee Carter Model (with a spatial extension)",
+    "text": "The Lee Carter Model (with a spatial extension)\nWe assume the counts to be Poisson distributed \\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\underbrace{\\alpha_x + \\beta_x\\kappa_t}_{1} + \\underbrace{\\omega_{sg_x}}_{2} + \\underbrace{\\epsilon_{xts}}_{3}\n\\]\n\nTraditional Lee-Carter model\nSpatial effect: allowed to vary for 10 different age classes\niid effect to account for overdispersion"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee-Carter model - Priors and constraints",
+    "text": "The Lee-Carter model - Priors and constraints\n\nWe model males and females separately"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints-1",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints-1",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee-Carter model - Priors and constraints",
+    "text": "The Lee-Carter model - Priors and constraints\n\nWe model males and females separately\nThe model is over-parametrised and need some constraint to be identifiable\n\n\\(\\sum_x\\alpha_x = 0\\)\n\\(\\sum_x\\beta_x = 1\\)\n\\(\\sum_s\\omega_{sg_x} = 0\\) for every age class \\(g_x\\)"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints-2",
+    "href": "talks/2025/GRASPA/index.html#the-lee-carter-model---priors-and-constraints-2",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "The Lee-Carter model - Priors and constraints",
+    "text": "The Lee-Carter model - Priors and constraints\n\nWe model males and females separately\nThe model is over-parametrised and need some constraint to be identifiable\nPrior for model parameters\n\nWe use PC-priors for all precision parameters."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#a-second-model",
+    "href": "talks/2025/GRASPA/index.html#a-second-model",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "A second model…",
+    "text": "A second model…\n\\[\nY_{xts}|\\lambda_{xts}\\sim\\text{Poisson}(E_{xts}e^{\\lambda_{xts}})\n\\] with \\[\n\\lambda_{xts} = \\alpha_x + \\beta_x\\kappa_t + \\omega_{s g_x p_t}+ \\epsilon_{xts}\n\\] with\n\\[\np_t = \\left\\{\n\\begin{aligned}\n1 & \\text{ for years 2002-2010}\\\\\n2 & \\text{ for years 2011-2019}\\\\\n\\end{aligned}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#inference-using-inlabru",
+    "href": "talks/2025/GRASPA/index.html#inference-using-inlabru",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Inference using inlabru",
+    "text": "Inference using inlabru\n\nThe Lee-Carter model does not fit the INLA framework because of the multiplicative product \\(\\beta_x\\kappa_t\\), which makes the linear predictor \\(\\lambda_{xts}\\) non-Gaussian\n\n\\[\n\\begin{aligned}\n\\lambda_{xts} & = \\alpha_x + \\beta_x\\kappa_t + \\omega_{sg_x} + \\epsilon_{xts} = \\tilde{\\eta}(\\mathbf{u})\\\\\n\\mathbf{u} & = \\{\\alpha, \\beta, \\kappa, \\omega,\\epsilon\\}\\sim\\mathcal{N}(\\mathbf{0},\\mathbf{Q}^{-1})\n\\end{aligned}\n\\]\n\n\nWe use the iterative procedure implemented in the inlabru package to solve the inferential problem\nIn practice one linearizes the problem using a first order Taylor expansion and iteratively applies INLA until convergence."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#mortality-over-time-by-age-and-gender",
+    "href": "talks/2025/GRASPA/index.html#mortality-over-time-by-age-and-gender",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Mortality over time by age and gender",
+    "text": "Mortality over time by age and gender\n\n\n\n\n\n\nTime effect\n\n\n\n\n\n\n\nAge-specific multiplication factor\n\n\n\n\n\n\nThe graph on the left shows the estimated temporal trend. Mortality rates have been decreasing over time for both genders, but at a faster pace for men than for women. Against the overall declining pattern, we observe some evidence of a slowdown in the decline of mortality, particularly after 2012.\nThe graph on the right shows the estimated age-effect. The reduction of mortality rates has been more pronounced for younger age-classes than it is for individuals in their sixties and seventies."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#geographical-variation-in-mortality-by-age-and-gender-over-the-whole-time-period",
+    "href": "talks/2025/GRASPA/index.html#geographical-variation-in-mortality-by-age-and-gender-over-the-whole-time-period",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Geographical variation in mortality by age and gender over the whole time period",
+    "text": "Geographical variation in mortality by age and gender over the whole time period\n\n\nThe maps above show the estimates of mean mortality rates by age class, gender. Provinces in blu indicate lower than average mortality rates, and provinces in red indicate higher than average moratlity rates.\nFor both gender we observe a marked North/South divide for child mortality.\nThere is also evidence of geographical variation in mortality rates between age 30 and 80. for both gender. For women the disadvantage is mainly concentrated in the southern provinces of Campania Calabria and Sicilia, while for men it extends to the centre south.\nAfter age 80, we observe comparatively (compared to younger ages) less variability across provinces for both gender – although we should highlight the existence of a Southern disadvantage for women but not for men."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#widening-geographical-inequalities-over-time---females",
+    "href": "talks/2025/GRASPA/index.html#widening-geographical-inequalities-over-time---females",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Widening geographical inequalities over time - Females",
+    "text": "Widening geographical inequalities over time - Females\n\n\nNOTE:: for the extreme classes the variance is high! I think we cannot show all maps – so I suggest we focus on these – leaving the extreme classes out. But we can say while inequalities seem to have reduced for the younger classes, and the very old – which are not shown here – the overall pattern is that of greater variation of mortality rates across the Italian Provinces in the second decade as compared to the first. This is particularly evident for women in their 50s, 60s and 70s – for whom mortality rates are now significantly lower than the average in the Centre-North but higher than average in the Centre South."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#widening-geographical-inequalities-over-time---males",
+    "href": "talks/2025/GRASPA/index.html#widening-geographical-inequalities-over-time---males",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Widening geographical inequalities over time - Males",
+    "text": "Widening geographical inequalities over time - Males\n\n\nFor men, while geographical inequalities in mortality have reduced for children under 10, and older adults above 80 – the overall pattern is that of greater variation of mortality rates in the second decade.\nHowever, inequalities are more manifest for men in their 30s, 40s and 50s, so at younger ages compared to women. The geography of inequality is also a little different with areas of higher than average mortality also present in the North-West. This age, gender and geographical patterning suggest that different underlying factors may be at play, and a different geography by causes of death."
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#concluding-remarks",
+    "href": "talks/2025/GRASPA/index.html#concluding-remarks",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Concluding remarks",
+    "text": "Concluding remarks\n\nFine geographical analyses are crucial to understand current trends, and anticipate future ones.\nWe demonstrated the value of a Bayesian framework, and the advantage of using inlabru, for estimating age and gender specific mortality at the provincial level.\nResults indicate a widening of geographical inequalities in the most recent decade, particularly for:\n\nWomen aged between 50 and 80\nMen aged between 30 and 60"
+  },
+  {
+    "objectID": "talks/2025/GRASPA/index.html#future-work-1",
+    "href": "talks/2025/GRASPA/index.html#future-work-1",
+    "title": "Bayesian analysis of spatio-temporal patterns of mortality in Italy using the Lee-Carter model",
+    "section": "Future work",
+    "text": "Future work\n\nDecomposing mortality by (large) causes of death.\nInvestigating socio-economic inequalities through linkages to individual characteristics from census.\nInvestigating contextual underlying factors that may be holding back progress for some.\nForecasting future trends for small areas and/or population groups\n\n\nFuture applications could:\n\nFurther decompose mortality rates by main cause of death.\nAdd socio-economic or environmental contextual variables – to gain insights on the underlying factors responsible for such variation and that that may be holding back progress for some.\nLeverage record linkages between events data registers and census data, to include information on individual characteristics and explore the existence of geographical inequalities across population sub-groups"
   },
   {
     "objectID": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality",
@@ -273,10 +1085,122 @@
     "text": "Take home message\n\nvarying geographical patterns depending on the combinations of age and gender considered\ngeographical variability higher among younger adult men and among older adult women, suggesting the influence of age- and sex-specific, context-dependent, risk factors.\n\nwidening of geographical inequalities between the first and second period"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sara Martino",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Welcome to my website.\nHere you can find:\n\ntalks\npresentations\nprojects"
+    "text": "Sorted by year"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\nKarina Lilleborge, Sara Martino, Geir-Arne Fuglstad, Finn Lindgren, Rikke Ingebrigtsen Joint modeling of line and point data on metric graphs. Spatial Statistics. DOI. [Article].\nKavitha, A K, Adair, Timothy, Fazaeli, Ali Akbar, Aronsson, Emma Amanda, Ashaba, Maggie, Backhaus-Hoven, Insa Linnea WHO launches global network of institutes to strengthen capacity for health inequality monitoring. International Journal for Equity in Health. DOI. [Article].\nRiebler, Andrea Ingeborg, Martino, Sara, Eikemo, Terje Andreas Designing Fairer Futures: How CHAIN Uses Data to Reduce Global Health Inequality. Link. [Misc]."
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nRicciotti, Lorena, Pollice, Alessio, Picone, Marco, Martino, Sara Cost-to-coast: space–time modeling of coast defense funds and environmental drivers in Italy. Environmental and Ecological Statistics. DOI. [Article].\nStephen, Villejo, Martino, Sara, Lindgren, Finn, Illian, Janine A data fusion model for meteorological data using the INLA-SPDE method. Journal of the Royal Statistical Society, Series C (Applied Statistics). DOI. [Article].\nHoven, Hanno, Eikemo, Terje Andreas, Backhaus-Hoven, Insa Linnea, Riebler, Andrea Ingeborg, Fitzgerald, Rory, Martino, Sara The second Health Inequalities Module in the European Social Survey (ESS): Methodology and research opportunities. Social Science and Medicine. DOI. [Article]."
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\nPanunzi, Greta, Moro, Stefano, Marquez, Isabel, Martino, Sara, Colloca, Francesco, Feretti, Francesco Estimating the spatial distribution of the white shark in the Mediterranean Sea via an integrated species distribution model accounting for physical barriers. Environmetrics. DOI. [Article].\nVandeskog, Silius Mortensønn, Huser, Raphaël, Bruland, Oddbjørn, Martino, Sara Fast spatial simulation of extreme high-resolution radar precipitation data using integrated nested Laplace approximations. Journal of the Royal Statistical Society, Series C (Applied Statistics). [Article].\nBelmont, Jafet Osuna, Martino, Sara, Illian, Janine, Rue, Håvard Spatio-temporal occupancy models with INLA. Methods in Ecology and Evolution. [Article].\nVandeskog, Silius Mortensønn, Martino, Sara, Huser, Raphaël An efficient workflow for modelling high-dimensional spatial extremes. Statistics and Computing. [Article]."
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\nPolettini, Silvia, Arima, Serena, Martino, Sara An Investigation of Models for Under-Reporting in the Analysis of Violence Against Women in Italy. Social Indicators Research. [Article].\nFioravanti, Guido, Martino, Sara, Cameletti, Michela, Toreti, Andrea Interpolating climate variables by using INLA and the SPDE approach. International Journal of Climatology. [Article].\nSkarstein, Emma Sofie, Martino, Sara, Muff, Stefanie A joint Bayesian framework for missing data and measurement error using integrated nested Laplace approximations. Biometrical Journal. [Article].\nMartino, Sara, Steinsland, Ingelin, Bruland, Oddbjørn, Vandeskog, Silius Mortensønn Efficient high-dimensional modelling of temperature and extreme precipitation. [Phdthesis]."
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\nPace, Daniela Silvia, Panunzi, Greta, Arcangeli, Antonella, Moro, Stefano, Lasinio, Giovanna Jona, Martino, Sara Seasonal distribution of an opportunistic apex predator (Tursiops truncatus) in marine coastal habitats of the Western Mediterranean Sea. Frontiers in Marine Science. [Article].\nBarmoudeh, Leila, Baghishani, Hossein, Martino, Sara Bayesian spatial analysis of crash severity data with the INLA approach: Assessment of different identification constraints. Accident Analysis and Prevention. [Article].\nBerild, Martin Outzen, Martino, Sara, Gómez-Rubio, Virgilio, Rue, Håvard Importance Sampling with the Integrated Nested Laplace Approximation. Journal of Computational and Graphical Statistics. [Article].\nVandeskog, Silius Mortensønn, Martino, Sara, Castro-Camilo, Daniela, Rue, Håvard Modelling Sub-daily Precipitation Extremes with the Blended Generalised Extreme Value Distribution. Journal of Agricultural Biological and Environmental Statistics. [Article].\nFioravanti, Guido, Cameletti, Michela, Martino, Sara, Cattani, Giorgio, Pisoni, Enrico A spatiotemporal analysis of NO2 concentrations during the Italian 2020 COVID-19 lockdown. Environmetrics. [Article]."
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\nMartino, Sara, Pace, Daniela Silvia, Moro, Stefano, Casoli, Edoardo, Ventura, Daniele, Frachea, Alessandro Integration of presence-only data from several sources: a case study on dolphins’ spatial distribution. Ecography. [Article].\nFioravanti, Guido, Martino, Sara, Cameletti, Michela, Cattani, Giorgio Spatio-temporal modelling of PM10 daily concentrations in Italy using the SPDE approach. Atmospheric Environment. [Article].\nVandeskog, Silius Mortensønn, Martino, Sara, Castro-Camilo, Daniela Modelling block maxima with the blended generalised extreme value distribution. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\n\nMo, Birger, Martino, Sara, Naversen, Christian Øyn, Aronsen, Gunnar, Rismark, Ole Benchmarking Hydro Operation by Use of a Simulator. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "2017",
+    "text": "2017\n\nFrancois, B., Martino, Sara, Tøfte, Lena S, Hingray, Benoît, Mo, Birger, Creutin, Jean-Dominique Effects of Increased Wind Power Generation on Mid-Norway’s Energy Balance under Climate Change: A Market Based Approach. Energies. [Article].\nMartino, Sara, Nipen, Thomas Nils, Lussana, Cristian, Kolberg, Sjur A stochastic weather generator based on resampling historical ensemble weather forecasts and its application to hydrological simulation. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-8",
+    "href": "publications.html#section-8",
+    "title": "Publications",
+    "section": "2016",
+    "text": "2016\n\nMartino, Sara, Kolberg, Sjur A study of a Linear Orographic Precipitation Model. [Techreport].\nLøland, Anders, Steinbakk, Gunnhildur Högnadóttir, Martino, Sara, Kolberg, Sjur Detrending og klimakorrigering av historiske tilsigs- og temperaturserier. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-9",
+    "href": "publications.html#section-9",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\n\nIngebrigtsen, Rikke, Lindgren, Finn, Steinsland, Ingelin, Martino, Sara Estimation of a non-stationary model for annual precipitation in southern Norway using replicates of the spatial field. Spatial Statistics. [Article].\nMartino, Sara, Riebler, Andrea Ingeborg Integrated nested Laplace approximations (INLA). [Misc]."
+  },
+  {
+    "objectID": "publications.html#section-10",
+    "href": "publications.html#section-10",
+    "title": "Publications",
+    "section": "2014",
+    "text": "2014\n\nMartino, Sara, Løland, Anders, Mo, Birger, Haff, Ingrid Hobæk Statistical properties of historical inflow series for long-term models. [Techreport].\nMartino, Sara, Kolberg, Sjur, Lepioufle, Jean Marie, Leblois, Etienne Weather generator: results from a pilot study. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-11",
+    "href": "publications.html#section-11",
+    "title": "Publications",
+    "section": "2013",
+    "text": "2013\n\nIllian, Janine B., Martino, Sara, Sørbye, Sigrunn Holbek, Gallego-Fernandez, Juan, Zunzunegui, Maria, Esquivias, M. Paz Fitting complex ecological point process models with integrated nested Laplace approximation. Methods in Ecology and Evolution. [Article].\nHoland, Anna Marie, Steinsland, Ingelin, Martino, Sara, Jensen, Henrik Animal Models and Integrated Nested Laplace Approximations. G3: Genes, Genomes, Genetics. [Article].\nHu, Xiangping, Steinsland, Ingelin, Simpson, Daniel Peter, Martino, Sara, Rue, Håvard Spatial Modelling of Temperature and Humidity using Systems of Stochastic Partial Differential Equations. [Techreport].\nHaff, Ingrid Hobæk, Martino, Sara, Løland, Anders, Follestad, Turid Statistical properties of historical inflow series for long-term models. [Techreport]."
+  },
+  {
+    "objectID": "publications.html#section-12",
+    "href": "publications.html#section-12",
+    "title": "Publications",
+    "section": "2012",
+    "text": "2012\n\nBeguin, J, Martino, Sara, Rue, Håvard, Cumming, SG Hierarchical analysis of spatially autocorrelated ecological data using integrated nested Laplace approximation. Methods in Ecology and Evolution. [Article]."
+  },
+  {
+    "objectID": "publications.html#section-13",
+    "href": "publications.html#section-13",
+    "title": "Publications",
+    "section": "2011",
+    "text": "2011\n\nMartino, Sara, Akerkar, Rupali Rajendra, Rue, Håvard Approximate Bayesian Inference for Survival Models. Scandinavian Journal of Statistics. [Article].\nMartino, Sara, Aas, Kjersti, Lindqvist, Ola, Neef, Linda Reiersølmoen, Rue, Håvard Estimating stochastic volatility models using integrated nested Laplace approximations. European Journal of Finance. [Article]."
+  },
+  {
+    "objectID": "publications.html#section-14",
+    "href": "publications.html#section-14",
+    "title": "Publications",
+    "section": "2009",
+    "text": "2009\n\nEidsvik, Jo, Martino, Sara, Rue, Håvard Approximate Bayesian Inference in Spatial Generalized Linear Mixed Models. Scandinavian Journal of Statistics. [Article].\nRue, Håvard, Martino, Sara, Chopin, N Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations. Journal of the Royal Statistical Society, Series B (Statistical Methodology). [Article]."
+  },
+  {
+    "objectID": "publications.html#section-15",
+    "href": "publications.html#section-15",
+    "title": "Publications",
+    "section": "2007",
+    "text": "2007\n\nRue, Håvard, Martino, Sara Approximate Bayesian inference for hierarchical Gaussian Markov random field models. Journal of Statistical Planning and Inference. [Article]."
   }
 ]
