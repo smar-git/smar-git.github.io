@@ -1,6 +1,65 @@
-.reveal .title {
-  font-size: 1.8em;  /* adjust as needed */
+/* =========================
+   TITLE SLIDE
+========================= */
+
+.reveal .title-slide {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+
+  height: 100%;
+  padding-top: 120px;
 }
+
+/* NTNU logo */
+.reveal .title-slide .quarto-title-logo {
+  max-height: 90px;
+  margin-bottom: 40px;
+}
+
+/* Main title */
+.reveal .title-slide h1.title {
+  font-size: 0.2em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* Author */
+.reveal .title-slide .author {
+  font-size: 1.2em;
+  color: white;
+
+  margin-top: 40px;
+}
+
+/* Optional subtitle */
+.reveal .title-slide .subtitle {
+  font-size: 1em;
+  color: #d9d9d9;
+}
+
+/* Conference info at bottom */
+.reveal .title-slide::after {
+  content: "3rd Edition Workshop on Hierarchical Bayesian Spatio-Temporal Modelling • Valencia • May 12–13, 2026";
+
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 90%;
+
+  font-size: 0.8em;
+  color: #d9d9d9;
+}
+
+/* =========================
+   YOUR EXISTING STYLES
+========================= */
 
 .topbox {
   position: absolute;
@@ -19,8 +78,6 @@
   width: 80%;
   text-align: center;
 }
-
-
 
 .tight-slide {
   padding: 0 !important;

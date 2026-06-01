@@ -1,0 +1,218 @@
+/* =========================
+   NTNU RevealJS Theme
+   ========================= */
+
+/* ---------- Root Colors ---------- */
+
+:root {
+  --ntnu-blue: #003865;
+  --ntnu-light-blue: #00509e;
+  --ntnu-gray: #f4f5f7;
+  --ntnu-dark: #1f2937;
+  --ntnu-text: #374151;
+  --ntnu-light-text: #6b7280;
+}
+
+/* ---------- Global Styling ---------- */
+
+.reveal {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--ntnu-text);
+  font-size: 32px;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+/* ---------- Background ---------- */
+
+.reveal .slide-background {
+  background-color: white;
+}
+
+/* ---------- Headings ---------- */
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  color: var(--ntnu-blue);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.reveal h1 {
+  font-size: 2.2em;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+}
+
+/* ---------- Paragraphs ---------- */
+
+.reveal p {
+  line-height: 1.5;
+}
+
+/* ---------- Lists ---------- */
+
+.reveal ul,
+.reveal ol {
+  margin-top: 0.6em;
+}
+
+.reveal li {
+  margin-bottom: 0.45em;
+}
+
+/* ---------- Title Slide ---------- */
+
+.reveal .title-slide {
+  text-align: left;
+  background-color: white;
+}
+
+.reveal .title-slide h1 {
+  color: var(--ntnu-blue);
+  margin-bottom: 0.2em;
+}
+
+.reveal .title-slide h2,
+.reveal .title-slide h3,
+.reveal .title-slide p {
+  color: var(--ntnu-light-text);
+}
+
+/* ---------- Section Divider Slides ---------- */
+
+.section-slide {
+  background-color: var(--ntnu-blue);
+  color: white;
+}
+
+.section-slide h1,
+.section-slide h2,
+.section-slide h3 {
+  color: white;
+}
+
+/* ---------- Callout / Block Styling ---------- */
+
+.callout {
+  background-color: var(--ntnu-gray);
+  border-left: 6px solid var(--ntnu-light-blue);
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.callout-title {
+  color: var(--ntnu-blue);
+  font-weight: 700;
+}
+
+/* ---------- Tables ---------- */
+
+.reveal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.reveal table th {
+  background-color: var(--ntnu-blue);
+  color: white;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.reveal table td {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+}
+
+/* ---------- Code Blocks ---------- */
+
+.reveal pre {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.reveal pre code {
+  padding: 1em;
+  font-size: 0.75em;
+  border-radius: 12px;
+}
+
+/* ---------- Links ---------- */
+
+.reveal a {
+  color: var(--ntnu-light-blue);
+}
+
+.reveal a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+
+.reveal .footer {
+  color: var(--ntnu-light-text);
+  font-size: 0.45em;
+}
+
+/* ---------- Slide Numbers ---------- */
+
+.reveal .slide-number {
+  color: var(--ntnu-light-text);
+  font-size: 0.5em;
+}
+
+/* ---------- NTNU Logo ---------- */
+
+.reveal .slide-logo {
+  height: 55px !important;
+  width: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  margin: 12px;
+}
+
+/* ---------- Images ---------- */
+
+.reveal img {
+  border-radius: 8px;
+}
+
+/* ---------- Blockquotes ---------- */
+
+.reveal blockquote {
+  border-left: 5px solid var(--ntnu-light-blue);
+  background-color: var(--ntnu-gray);
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* ---------- Progress Bar ---------- */
+
+.reveal .progress {
+  color: var(--ntnu-light-blue);
+}
+
+/* ---------- Optional Top Bar ---------- */
+
+.top-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: var(--ntnu-blue);
+}
