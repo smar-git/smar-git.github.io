@@ -18,7 +18,7 @@
     "href": "talks/2026/2026_Zaragoza/index.html#the-european-social-survey-ess",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
     "section": "The European Social Survey (ESS)",
-    "text": "The European Social Survey (ESS)\nThe ESS is designed to measure the values, attitudes, and behavioral patterns of the populations across Europe.\n\n\n\n\n\nA biennial, cross-national survey conducted in approximately 30 European countries since 2002.\nIn each participating country, a minimum of 1,500 respondents are surveyed.\nRespondents are drawn from a probabilistic sample representing the countries’ population aged 15 and above.\nThe ESS wants to allow for cross-country compatibility using harmonized questionnaire design."
+    "text": "The European Social Survey (ESS)\nThe ESS is designed to measure the values, attitudes, and behavioral patterns of the populations across Europe.\n\n\n\n\n\nA biennial, cross-national survey conducted in approximately 30 European countries since 2002.\nIn each participating country, a minimum of 1,500 respondents are surveyed.\nRespondents are drawn from a probabilistic sample representing the countries’ population aged 15 and above.\nThe ESS aims at allowing for cross-country compatibility using harmonized questionnaire design."
   },
   {
     "objectID": "talks/2026/2026_Zaragoza/index.html#participating-countries",
@@ -32,7 +32,7 @@
     "href": "talks/2026/2026_Zaragoza/index.html#focus-areas",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
     "section": "Focus areas",
-    "text": "Focus areas"
+    "text": "Focus areas\n\n\n\n\n\n\n\nThe team in trondheim is responsible for the Health Inequalities module\n\n\nhttps://forscenter.ch/projects/european-social-survey/"
   },
   {
     "objectID": "talks/2026/2026_Zaragoza/index.html#how-about-the-survey-design-example-of-switzerland",
@@ -88,42 +88,63 @@
     "href": "talks/2026/2026_Zaragoza/index.html#why-do-we-need-a-model-and-what-should-it-do",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
     "section": "Why do we need a model and what should it do?",
-    "text": "Why do we need a model and what should it do?\n\nDescriptive analysis does not work for small area estimation due to the small sample size \\(\\Rightarrow\\) We need a model!\nWe would like to borrow strength across time and space \\(\\Rightarrow\\) Bayesian hierarchical model with random effects\nIn the end we would like to draw conclusion for the entire popualtion not just our survey population."
+    "text": "Why do we need a model and what should it do?\n\nDescriptive analysis does not work for small area estimation due to the small sample size \\(\\Rightarrow\\) We need a model!\nWe would like to borrow strength across time and space \\(\\Rightarrow\\) Bayesian hierarchical model with random effects\nIn the end we would like to draw conclusion for the entire population not just our survey population."
   },
   {
     "objectID": "talks/2026/2026_Zaragoza/index.html#our-model-in-1-page",
     "href": "talks/2026/2026_Zaragoza/index.html#our-model-in-1-page",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
     "section": "Our model in 1 page",
-    "text": "Our model in 1 page\nWe use a Bayesian hierarchical model for individual-level data with three key properties:\n\nIt is a due to the binary outcome variable SRH.\nInclusion of random effects for space and time that allow for smoothing by .\n to get representative estimates at population level."
+    "text": "Our model in 1 page\nWe use a Bayesian hierarchical model for individual-level data with three key properties:\n\nIt is a logistic model due to the binary outcome variable SRH.\nInclusion of random effects for space and time that allow for smoothing by borrowing strength of neighbouring time points or regions.\nPost-stratification to get representative estimates at population level."
   },
   {
     "objectID": "talks/2026/2026_Zaragoza/index.html#model-details",
     "href": "talks/2026/2026_Zaragoza/index.html#model-details",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
     "section": "Model details",
-    "text": "Model details\nWe fitted separate model for males and females.\nLet \\(Y(i)\\) denote the observed value for individual \\(i\\):\n\\[\\begin{align*}\n        Y_i \\mid \\pi_i &\\sim \\text{Bernoulli}(\\pi_i)\\\\\n        \\text{logit}(\\pi_i) &= \\mu + u_{r(i)} + \\alpha_{t(i)} + \\phi_{c(i)} +\\text{fixed effects} + \\text{interaction effects}\\\\\n\\end{align*}\n\\]\n\n\\(\\bf{u}\\) follows a BYM2 model over the region \\(r\\).\n\n\\(\\bf{\\alpha}\\) follows a RW2 model over the ESS wave \\(t\\).\n\\(\\bf{\\phi}\\) is an iid effect for country \\(c\\).\nFixed effects: Age and education\nInteraction effects to adjust for the survey design as recommend by Gelman et al."
+    "text": "Model details\nWe fitted separate model for males and females.\nLet \\(Y_i\\) denote the observed value for individual \\(i\\):\n\\[\\begin{align*}\n        Y_i \\mid \\pi_i &\\sim \\text{Bernoulli}(\\pi_i)\\\\\n        \\text{logit}(\\pi_i) &= \\mu + u_{\\ r_i} + \\alpha_{\\ t_i} + \\phi_{\\ c_i} +\\text{fixed effects} + \\text{interaction effects}\\\\\n\\end{align*}\n\\]\n\n\\(\\bf{u}\\) follows a BYM2 model over the region \\(r\\).\n\n\\(\\bf{\\alpha}\\) follows a RW2 model over the ESS wave \\(t\\).\n\\(\\bf{\\phi}\\) is an iid effect for country \\(c\\).\nFixed effects: Age and education\nInteraction effects to adjust for the survey design as recommend by Gelman et al.\n\n\nThis model satisfies the first two properties that we asked for\nBayesian model with structured effects in space and time\n..but still need to account for the survey design in order to have estimates that are valid for the whole population"
   },
   {
-    "objectID": "talks/2026/2026_Zaragoza/index.html#post-stratification",
-    "href": "talks/2026/2026_Zaragoza/index.html#post-stratification",
+    "objectID": "talks/2026/2026_Zaragoza/index.html#multilevel-regression-and-post-stratification-mrp",
+    "href": "talks/2026/2026_Zaragoza/index.html#multilevel-regression-and-post-stratification-mrp",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
-    "section": "Post-stratification",
-    "text": "Post-stratification\nTo get prevalence estimates at the population level we post-stratify our estimates using population estimates.\n\nWe use 1km x 1km population estimates from WorldPop stratified by gender and age groups.\nThose estimates were aggregated to the regions of our study.\nTo get estimates stratified by education, we applied a multinomial model incorporating survey weights from the ESS leading to a pseudo-likelihood.\nIn a Monte Carlo approach we compute posterior marginal estimates adjusting for how many people we have in the strata."
+    "section": "Multilevel Regression and Post-Stratification (MRP)",
+    "text": "Multilevel Regression and Post-Stratification (MRP)\nWe are interested in prevalence estimates at the population level.\nMRP is a two stages:\n\nUse a model to estimate probabilities \\(\\pi_i\\)\n\nThese probabilities reflect the survey population"
   },
   {
-    "objectID": "talks/2026/2026_Zaragoza/index.html#results",
-    "href": "talks/2026/2026_Zaragoza/index.html#results",
+    "objectID": "talks/2026/2026_Zaragoza/index.html#multilevel-regression-and-post-stratification-mrp-1",
+    "href": "talks/2026/2026_Zaragoza/index.html#multilevel-regression-and-post-stratification-mrp-1",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
-    "section": "Results",
-    "text": "Results"
+    "section": "Multilevel Regression and Post-Stratification (MRP)",
+    "text": "Multilevel Regression and Post-Stratification (MRP)\nWe are interested in prevalence estimates at the population level.\nMRP is a two stages:\n\nUse a model to estimate probabilities \\(\\pi_i\\)\n\nThese probabilities reflect the survey population\n\nWeight model predictions for different subgroups by the actual frequency of these subgroups. This idea can be expressed as:\n\n\\[\n\\hat{\\pi}^{MRP}_s = \\frac{\\sum_{i\\in s} N_j \\hat{\\pi}_j}{\\sum_{i\\in s} N_j }\n\\]\n\nThese probabilities reflect the actual population\nWe need to know the population in each of the cells se are interested in (GENDER\\(\\times\\)AGE\\(\\times\\)EDUCATION\\(\\times\\)NUTS)"
   },
   {
-    "objectID": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health",
-    "href": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health",
+    "objectID": "talks/2026/2026_Zaragoza/index.html#population-in-europe",
+    "href": "talks/2026/2026_Zaragoza/index.html#population-in-europe",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
-    "section": "Posterior probability of reporting good health",
-    "text": "Posterior probability of reporting good health"
+    "section": "Population in Europe",
+    "text": "Population in Europe\nWe need population counts stratified by gender, age, education and NUTS.\nCan be problematic as NUTS regions have changed over time\n\n\n\n\nWe use \\(1\\times 1\\) Km population estimates from WorldPop stratified by gender and age groups.\nThose estimates were aggregated to the regions of our study (NUTS2).\nTo get estimates stratified by education, we applied a multinomial model incorporating survey weights from the ESS leading to a pseudo-likelihood.\n\n\n \nhttps://www.worldpop.org/"
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#uncertainty-quantification",
+    "href": "talks/2026/2026_Zaragoza/index.html#uncertainty-quantification",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "Uncertainty quantification",
+    "text": "Uncertainty quantification\n\nWe use a Monte Carlo approach to compute uncertainties for posterior marginal estimates adjusting for how many people we have in the strata.\nWe also account for uncertainty in the population estimates that we need for MRP"
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health---by-education",
+    "href": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health---by-education",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "Posterior probability of reporting good health - by education",
+    "text": "Posterior probability of reporting good health - by education"
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health---by-age",
+    "href": "talks/2026/2026_Zaragoza/index.html#posterior-probability-of-reporting-good-health---by-age",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "Posterior probability of reporting good health - by age",
+    "text": "Posterior probability of reporting good health - by age"
   },
   {
     "objectID": "talks/2026/2026_Zaragoza/index.html#mean-sex-difference-in-reporting-good-srh",
@@ -133,11 +154,32 @@
     "text": "Mean sex difference in reporting good SRH"
   },
   {
-    "objectID": "talks/2026/2026_Zaragoza/index.html#discussion",
-    "href": "talks/2026/2026_Zaragoza/index.html#discussion",
+    "objectID": "talks/2026/2026_Zaragoza/index.html#discussion-i",
+    "href": "talks/2026/2026_Zaragoza/index.html#discussion-i",
     "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
-    "section": "Discussion",
-    "text": "Discussion\nThis study intends to make an empirical and methodological contribution to understanding inequalities in self‑rated health trends in Europe by presenting systematic sub-national analyses over time disaggregated by two prominent determinants of health: gender and education.\n\nmodest improvements in self-rated health over time, with gains concentrated among women\nsubstantial within-country heterogeneity emerges, underscoring the importance of small-area analyses.\n\nOf note, we assessed how well we adjust for the survey design in our model by regressing the survey weights on the control variable and their interactions finding that we explain about \\(70\\%\\) of the design."
+    "section": "Discussion I",
+    "text": "Discussion I\nThis study intends to make an empirical and methodological contribution to understanding inequalities in self‑rated health trends in Europe by presenting systematic sub-national analyses over time disaggregated by two prominent determinants of health: gender and education.\n\nmodest improvements in self-rated health over time, with gains concentrated among women\nsubstantial within-country heterogeneity emerges, underscoring the importance of small-area analyses.\n\nOf note, we assessed how well we adjust for the survey design in our model by regressing the survey weights on the control variable and their interactions finding that we explain about \\(70\\%\\) of the design."
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#discussion-ii",
+    "href": "talks/2026/2026_Zaragoza/index.html#discussion-ii",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "Discussion II",
+    "text": "Discussion II\nMore in general:\n\nThe ESS allows to investigate health inequity across Europe along different variables.\nMulti-country comparisons are encouraged.\nChallenges include that there are not so many respondents which complicates spatial analysis and the survey design has to be adjusted for."
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#this-is-joint-work-with",
+    "href": "talks/2026/2026_Zaragoza/index.html#this-is-joint-work-with",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "This is joint work with",
+    "text": "This is joint work with\n\n\n\n\n\n\nT. Eikemo\n\n\n\n\n\n\n\nI. Backhaus\n\n\n\n\n\n\n\nH. Hoven\n\n\n\n\n\n\n\n\n\nM. Beneito\n\n\n\n\n\n\n\nA. Riebler"
+  },
+  {
+    "objectID": "talks/2026/2026_Zaragoza/index.html#thank-you",
+    "href": "talks/2026/2026_Zaragoza/index.html#thank-you",
+    "title": "Health Inequalities across Europe: small-area insights from the Euroepan Social Survey",
+    "section": "Thank you!",
+    "text": "Thank you!"
   },
   {
     "objectID": "talks/2026/2026_Valencia_workshop/index.html#spatio-temporal-trends-in-health-and-mortality",
